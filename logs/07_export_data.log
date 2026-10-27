@@ -1,0 +1,183 @@
+COMMAND
+docker run --rm -v /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data:/data -u 502:20 ghcr.io/bodenmillergroup/steinbock:0.16.1 export csv intensities regionprops -o cells.csv
+
+STDOUT
+
+
+STDERR
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+2026-10-11 09:05:46,539 INFO steinbock - cells.csv
+
+
+RETURN_CODE
+0
+
+
+---
+
+COMMAND
+docker run --rm -v /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data:/data -u 502:20 ghcr.io/bodenmillergroup/steinbock:0.16.1 export anndata --intensities intensities --data regionprops --neighbors neighbors -o cells.h5ad
+
+STDOUT
+
+
+STDERR
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+2026-10-11 09:05:48,479 WARNING steinbock - The anndata package currently does not support on-disk; all files will be loaded into memory
+2026-10-11 09:05:53,515 INFO steinbock - cells.h5ad
+
+
+RETURN_CODE
+0
+
+
+---
+
+COMMAND
+docker run --rm -v /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data:/data -u 502:20 ghcr.io/bodenmillergroup/steinbock:0.16.1 export graphs --format graphml --data intensities --data regionprops
+
+STDOUT
+
+
+STDERR
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+2026-10-11 09:05:55,714 INFO steinbock - graphs/ROI001_E10.graphml
+2026-10-11 09:05:55,747 INFO steinbock - graphs/ROI002_F12.graphml
+2026-10-11 09:05:55,834 INFO steinbock - graphs/ROI003_C4.graphml
+2026-10-11 09:05:55,967 INFO steinbock - graphs/ROI004_I7.graphml
+2026-10-11 09:05:56,092 INFO steinbock - graphs/ROI005_J4.graphml
+2026-10-11 09:05:56,164 INFO steinbock - graphs/ROI006_B12.graphml
+2026-10-11 09:05:56,499 INFO steinbock - graphs/ROI007_K15.graphml
+2026-10-11 09:05:56,596 INFO steinbock - graphs/ROI008_E12.graphml
+2026-10-11 09:05:56,647 INFO steinbock - graphs/ROI009_G3.graphml
+2026-10-11 09:05:56,845 INFO steinbock - graphs/ROI010_H9.graphml
+2026-10-11 09:05:57,113 INFO steinbock - graphs/ROI011_E14.graphml
+2026-10-11 09:05:57,246 INFO steinbock - graphs/ROI012_H12.graphml
+2026-10-11 09:05:57,492 INFO steinbock - graphs/ROI013_G9.graphml
+2026-10-11 09:05:57,851 INFO steinbock - graphs/ROI014_C5.graphml
+2026-10-11 09:05:57,889 INFO steinbock - graphs/ROI015_D2.graphml
+2026-10-11 09:05:58,240 INFO steinbock - graphs/ROI016_J12.graphml
+2026-10-11 09:05:58,441 INFO steinbock - graphs/ROI017_K13.graphml
+2026-10-11 09:05:58,652 INFO steinbock - graphs/ROI018_B10.graphml
+2026-10-11 09:05:58,695 INFO steinbock - graphs/ROI019_I5.graphml
+2026-10-11 09:05:58,997 INFO steinbock - graphs/ROI020_G1.graphml
+2026-10-11 09:05:59,107 INFO steinbock - graphs/ROI022_J9.graphml
+2026-10-11 09:05:59,770 INFO steinbock - graphs/ROI023_F13.graphml
+2026-10-11 09:05:59,980 INFO steinbock - graphs/ROI024_J15.graphml
+2026-10-11 09:06:00,056 INFO steinbock - graphs/ROI025_I4.graphml
+2026-10-11 09:06:00,156 INFO steinbock - graphs/ROI026_C12.graphml
+2026-10-11 09:06:00,376 INFO steinbock - graphs/ROI027_C13.graphml
+2026-10-11 09:06:01,262 INFO steinbock - graphs/ROI028_C14.graphml
+2026-10-11 09:06:01,762 INFO steinbock - graphs/ROI029_J2.graphml
+2026-10-11 09:06:01,946 INFO steinbock - graphs/ROI030_J7.graphml
+2026-10-11 09:06:04,308 INFO steinbock - graphs/ROI031_K10.graphml
+2026-10-11 09:06:04,410 INFO steinbock - graphs/ROI032_I13.graphml
+2026-10-11 09:06:04,549 INFO steinbock - graphs/ROI033_G12.graphml
+2026-10-11 09:06:04,650 INFO steinbock - graphs/ROI034_G13.graphml
+2026-10-11 09:06:05,106 INFO steinbock - graphs/ROI035_C1.graphml
+2026-10-11 09:06:05,229 INFO steinbock - graphs/ROI036_K6.graphml
+2026-10-11 09:06:05,508 INFO steinbock - graphs/ROI037_F10.graphml
+2026-10-11 09:06:05,599 INFO steinbock - graphs/ROI038_E15.graphml
+2026-10-11 09:06:05,986 INFO steinbock - graphs/ROI039_F14.graphml
+2026-10-11 09:06:06,016 INFO steinbock - graphs/ROI040_D7.graphml
+2026-10-11 09:06:06,081 INFO steinbock - graphs/ROI041_D5.graphml
+2026-10-11 09:06:06,118 INFO steinbock - graphs/ROI042_H6.graphml
+2026-10-11 09:06:06,186 INFO steinbock - graphs/ROI043_G5.graphml
+2026-10-11 09:06:06,403 INFO steinbock - graphs/ROI044_F4.graphml
+2026-10-11 09:06:06,421 INFO steinbock - graphs/ROI045_I2.graphml
+2026-10-11 09:06:06,434 INFO steinbock - graphs/ROI046_J3.graphml
+2026-10-11 09:06:06,448 INFO steinbock - graphs/ROI047_K3.graphml
+2026-10-11 09:06:06,507 INFO steinbock - graphs/ROI048_K9.graphml
+2026-10-11 09:06:06,681 INFO steinbock - graphs/ROI049_K12.graphml
+2026-10-11 09:06:06,723 INFO steinbock - graphs/ROI050_G8.graphml
+2026-10-11 09:06:06,757 INFO steinbock - graphs/ROI051_I11.graphml
+2026-10-11 09:06:06,791 INFO steinbock - graphs/ROI052_D8.graphml
+2026-10-11 09:06:06,906 INFO steinbock - graphs/ROI053_B8.graphml
+2026-10-11 09:06:07,017 INFO steinbock - graphs/ROI054_E4.graphml
+2026-10-11 09:06:07,137 INFO steinbock - graphs/ROI055_B4.graphml
+2026-10-11 09:06:07,387 INFO steinbock - graphs/ROI056_B13.graphml
+2026-10-11 09:06:07,951 INFO steinbock - graphs/ROI057_B14.graphml
+2026-10-11 09:06:08,002 INFO steinbock - graphs/ROI058_B15.graphml
+2026-10-11 09:06:08,021 INFO steinbock - graphs/ROI059_J6.graphml
+2026-10-11 09:06:08,112 INFO steinbock - graphs/ROI060_C10.graphml
+2026-10-11 09:06:08,257 INFO steinbock - graphs/ROI061_I9.graphml
+2026-10-11 09:06:08,297 INFO steinbock - graphs/ROI062_E7.graphml
+2026-10-11 09:06:08,317 INFO steinbock - graphs/ROI063_B6.graphml
+2026-10-11 09:06:08,393 INFO steinbock - graphs/ROI064_C9.graphml
+2026-10-11 09:06:08,656 INFO steinbock - graphs/ROI065_D1.graphml
+2026-10-11 09:06:08,937 INFO steinbock - graphs/ROI066_E13.graphml
+2026-10-11 09:06:09,134 INFO steinbock - graphs/ROI067_G14.graphml
+2026-10-11 09:06:09,175 INFO steinbock - graphs/ROI068_H15.graphml
+2026-10-11 09:06:09,319 INFO steinbock - graphs/ROI069_H13.graphml
+2026-10-11 09:06:09,473 INFO steinbock - graphs/ROI070_J14.graphml
+2026-10-11 09:06:09,523 INFO steinbock - graphs/ROI071_J11.graphml
+2026-10-11 09:06:09,815 INFO steinbock - graphs/ROI072_H14.graphml
+2026-10-11 09:06:09,962 INFO steinbock - graphs/ROI073_I14.graphml
+2026-10-11 09:06:10,090 INFO steinbock - graphs/ROI074_D14.graphml
+2026-10-11 09:06:10,153 INFO steinbock - graphs/ROI075_C15.graphml
+2026-10-11 09:06:10,246 INFO steinbock - graphs/ROI076_D15.graphml
+2026-10-11 09:06:10,346 INFO steinbock - graphs/ROI077_F7.graphml
+2026-10-11 09:06:10,395 INFO steinbock - graphs/ROI078_D12.graphml
+2026-10-11 09:06:10,431 INFO steinbock - graphs/ROI079_C7.graphml
+2026-10-11 09:06:10,456 INFO steinbock - graphs/ROI080_B3.graphml
+2026-10-11 09:06:10,575 INFO steinbock - graphs/ROI081_G10.graphml
+2026-10-11 09:06:10,611 INFO steinbock - graphs/ROI082_B11.graphml
+2026-10-11 09:06:10,641 INFO steinbock - graphs/ROI083_C11.graphml
+2026-10-11 09:06:10,661 INFO steinbock - graphs/ROI084_E11.graphml
+2026-10-11 09:06:10,687 INFO steinbock - graphs/ROI085_F11.graphml
+2026-10-11 09:06:10,710 INFO steinbock - graphs/ROI086_H11.graphml
+2026-10-11 09:06:10,816 INFO steinbock - graphs/ROI087_H10.graphml
+2026-10-11 09:06:10,822 INFO steinbock - graphs/ROI088_I6.graphml
+2026-10-11 09:06:10,832 INFO steinbock - graphs/ROI089_I3.graphml
+2026-10-11 09:06:10,906 INFO steinbock - graphs/ROI090_G2.graphml
+2026-10-11 09:06:10,956 INFO steinbock - graphs/ROI091_H5.graphml
+2026-10-11 09:06:10,978 INFO steinbock - graphs/ROI092_D9.graphml
+2026-10-11 09:06:10,992 INFO steinbock - graphs/ROI093_B5.graphml
+2026-10-11 09:06:11,022 INFO steinbock - graphs/ROI094_B7.graphml
+2026-10-11 09:06:11,129 INFO steinbock - graphs/ROI095_F8.graphml
+2026-10-11 09:06:11,157 INFO steinbock - graphs/ROI096_F5.graphml
+2026-10-11 09:06:11,173 INFO steinbock - graphs/ROI097_B9.graphml
+2026-10-11 09:06:11,190 INFO steinbock - graphs/ROI098_D6.graphml
+2026-10-11 09:06:11,224 INFO steinbock - graphs/ROI099_F3.graphml
+2026-10-11 09:06:11,276 INFO steinbock - graphs/ROI100_B2.graphml
+2026-10-11 09:06:11,318 INFO steinbock - graphs/ROI101_C3.graphml
+2026-10-11 09:06:11,479 INFO steinbock - graphs/ROI102_F15.graphml
+2026-10-11 09:06:11,518 INFO steinbock - graphs/ROI103_I10.graphml
+2026-10-11 09:06:11,535 INFO steinbock - graphs/ROI104_I8.graphml
+2026-10-11 09:06:11,547 INFO steinbock - graphs/ROI105_G6.graphml
+2026-10-11 09:06:11,570 INFO steinbock - graphs/ROI106_J1.graphml
+2026-10-11 09:06:11,596 INFO steinbock - graphs/ROI107_A5.graphml
+2026-10-11 09:06:11,808 INFO steinbock - graphs/ROI108_A13.graphml
+2026-10-11 09:06:11,833 INFO steinbock - graphs/ROI109_J5.graphml
+2026-10-11 09:06:12,049 INFO steinbock - graphs/ROI110_A15.graphml
+2026-10-11 09:06:12,074 INFO steinbock - graphs/ROI111_E5.graphml
+2026-10-11 09:06:12,146 INFO steinbock - graphs/ROI112_J10.graphml
+2026-10-11 09:06:12,183 INFO steinbock - graphs/ROI113_I15.graphml
+2026-10-11 09:06:12,218 INFO steinbock - graphs/ROI114_G11.graphml
+2026-10-11 09:06:12,227 INFO steinbock - graphs/ROI115_F9.graphml
+2026-10-11 09:06:12,294 INFO steinbock - graphs/ROI116_J13.graphml
+2026-10-11 09:06:12,349 INFO steinbock - graphs/ROI117_A1.graphml
+2026-10-11 09:06:12,400 INFO steinbock - graphs/ROI118_A2.graphml
+2026-10-11 09:06:12,427 INFO steinbock - graphs/ROI119_A12.graphml
+2026-10-11 09:06:12,449 INFO steinbock - graphs/ROI120_H8.graphml
+2026-10-11 09:06:12,476 INFO steinbock - graphs/ROI121_A8.graphml
+2026-10-11 09:06:12,501 INFO steinbock - graphs/ROI122_A7.graphml
+2026-10-11 09:06:12,513 INFO steinbock - graphs/ROI123_A6.graphml
+2026-10-11 09:06:12,565 INFO steinbock - graphs/ROI124_A10.graphml
+2026-10-11 09:06:12,579 INFO steinbock - graphs/ROI125_A11.graphml
+2026-10-11 09:06:12,600 INFO steinbock - graphs/ROI126_F6.graphml
+2026-10-11 09:06:12,622 INFO steinbock - graphs/ROI127_E9.graphml
+2026-10-11 09:06:12,713 INFO steinbock - graphs/ROI128_A14.graphml
+2026-10-11 09:06:12,839 INFO steinbock - graphs/ROI129_A4.graphml
+2026-10-11 09:06:12,849 INFO steinbock - graphs/ROI130_A3.graphml
+2026-10-11 09:06:12,855 INFO steinbock - graphs/ROI131_A9.graphml
+2026-10-11 09:06:12,932 INFO steinbock - graphs/ROI132_G15.graphml
+2026-10-11 09:06:12,952 INFO steinbock - graphs/ROI133_E6.graphml
+2026-10-11 09:06:13,089 INFO steinbock - graphs/ROI134_D4.graphml
+2026-10-11 09:06:13,127 INFO steinbock - graphs/ROI135_C2.graphml
+2026-10-11 09:06:13,149 INFO steinbock - graphs/ROI136_C6.graphml
+2026-10-11 09:06:13,197 INFO steinbock - graphs/ROI137_C8.graphml
+
+
+RETURN_CODE
+0

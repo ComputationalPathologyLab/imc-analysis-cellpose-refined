@@ -1,0 +1,15 @@
+BEFORE (old stack, no filter)
+,col 734,col 735,col 736,col 737,col 738
+row 663,1,0,0,0,0
+row 664,1,0,3,0,0
+row 665,0,1,816,3,0
+row 666,0,0,2,1,1
+row 667,0,0,0,0,0
+
+AFTER (new stack, hot-pixel filter)
+,col 734,col 735,col 736,col 737,col 738
+row 663,1,0,0,0,0
+row 664,1,0,3,0,0
+row 665,0,1,3,3,0
+row 666,0,0,2,1,1
+row 667,0,0,0,0,0

@@ -1,0 +1,64 @@
+DNA STATUS PER CORE
+run_started: 2026-10-13T10:38:09
+host: MacBook-Air-di-ICH.local; python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1
+rule: dna_sum = arcsinh(DNA1) + arcsinh(DNA2) per object; DNA-negative if < 1; core: < 0.20 valid, 0.20-0.50 intermediate, > 0.50 dna_negative
+validation on the reference cells vs TMA core map: rois=136; object_count_differences=0; fraction_max_abs_difference=0.0; DNA1_median_max_abs_difference=0.0; class_differences=0
+objects: 79739; DNA-negative objects: 21204 (26.6%)
+classes (sheet): 136 cores {'valid': 46, 'intermediate': 19, 'dna_negative': 71}; evaluable cores {'valid': 36, 'intermediate': 18, 'dna_negative': 67}
+classes (all objects): 136 cores {'valid': 45, 'intermediate': 20, 'dna_negative': 71}; evaluable cores {'valid': 35, 'intermediate': 19, 'dna_negative': 67}
+classes (retained cells): 136 cores {'valid': 48, 'intermediate': 17, 'dna_negative': 71}; evaluable cores {'valid': 38, 'intermediate': 16, 'dna_negative': 67}
+class changes vs sheet (all objects): 1
+  ROI008_E12: valid (0.200) -> intermediate (0.208); objects 543; evaluable_for_IMC=yes
+class changes vs sheet (retained cells): 2
+  ROI002_F12: intermediate (0.227) -> valid (0.181); objects 155; evaluable_for_IMC=yes
+  ROI064_C9: intermediate (0.220) -> valid (0.167); objects 366; evaluable_for_IMC=yes
+run_finished: 2026-10-13T10:38:10; checks_failed=False
+
+DNA STATUS PER CORE
+run_started: 2026-10-13T10:38:33
+host: MacBook-Air-di-ICH.local; python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1
+rule: dna_sum = arcsinh(DNA1) + arcsinh(DNA2) per object; DNA-negative if < 1; core: < 0.20 valid, 0.20-0.50 intermediate, > 0.50 dna_negative
+validation on the reference cells vs TMA core map: rois=136; object_count_differences=0; fraction_max_abs_difference=0.0; DNA1_median_max_abs_difference=0.0; class_differences=0
+objects: 79739; DNA-negative objects: 21204 (26.6%)
+classes (sheet): 136 cores {'valid': 46, 'intermediate': 19, 'dna_negative': 71}; evaluable cores {'valid': 36, 'intermediate': 18, 'dna_negative': 67}
+classes (all objects): 136 cores {'valid': 45, 'intermediate': 20, 'dna_negative': 71}; evaluable cores {'valid': 35, 'intermediate': 19, 'dna_negative': 67}
+classes (retained cells): 136 cores {'valid': 48, 'intermediate': 17, 'dna_negative': 71}; evaluable cores {'valid': 38, 'intermediate': 16, 'dna_negative': 67}
+class changes vs sheet (all objects): 1
+  ROI008_E12: valid (0.200) -> intermediate (0.208); objects 543; evaluable_for_IMC=yes
+class changes vs sheet (retained cells): 2
+  ROI002_F12: intermediate (0.227) -> valid (0.181); objects 155; evaluable_for_IMC=yes
+  ROI064_C9: intermediate (0.220) -> valid (0.167); objects 366; evaluable_for_IMC=yes
+run_finished: 2026-10-13T10:38:34; checks_failed=False
+
+DNA STATUS PER CORE
+run_started: 2026-10-13T11:06:36
+host: MacBook-Air-di-ICH.local; python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1
+rule: dna_sum = arcsinh(DNA1) + arcsinh(DNA2) per object; DNA-negative if < 1; core: < 0.20 valid, 0.20-0.50 intermediate, > 0.50 dna_negative
+validation on the reference cells vs TMA core map: rois=136; object_count_differences=0; fraction_max_abs_difference=0.0; DNA1_median_max_abs_difference=0.0; class_differences=0
+objects: 79739; DNA-negative objects: 21204 (26.6%)
+classes (sheet): 136 cores {'valid': 46, 'intermediate': 19, 'dna_negative': 71}; evaluable cores {'valid': 36, 'intermediate': 18, 'dna_negative': 67}
+classes (all objects): 136 cores {'valid': 45, 'intermediate': 20, 'dna_negative': 71}; evaluable cores {'valid': 35, 'intermediate': 19, 'dna_negative': 67}
+classes (retained cells): 136 cores {'valid': 48, 'intermediate': 17, 'dna_negative': 71}; evaluable cores {'valid': 38, 'intermediate': 16, 'dna_negative': 67}
+class changes vs sheet (all objects): 1
+  ROI008_E12: valid (0.200) -> intermediate (0.208); objects 543; evaluable_for_IMC=yes
+class changes vs sheet (retained cells): 2
+  ROI002_F12: intermediate (0.227) -> valid (0.181); objects 155; evaluable_for_IMC=yes
+  ROI064_C9: intermediate (0.220) -> valid (0.167); objects 366; evaluable_for_IMC=yes
+run_finished: 2026-10-13T11:06:36; checks_failed=False
+
+DNA STATUS PER CORE
+run_started: 2026-10-13T11:12:54
+host: MacBook-Air-di-ICH.local; python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1
+rule: dna_sum = arcsinh(DNA1) + arcsinh(DNA2) per object; DNA-negative if < 1; core: < 0.20 valid, 0.20-0.50 intermediate, > 0.50 dna_negative
+validation on the reference cells vs TMA core map: rois=136; object_count_differences=0; fraction_max_abs_difference=0.0; DNA1_median_max_abs_difference=0.0; class_differences=0
+objects: 79739; DNA-negative objects: 21204 (26.6%)
+classes (sheet): 136 cores {'valid': 46, 'intermediate': 19, 'dna_negative': 71}; evaluable cores {'valid': 36, 'intermediate': 18, 'dna_negative': 67}
+classes (all objects): 136 cores {'valid': 45, 'intermediate': 20, 'dna_negative': 71}; evaluable cores {'valid': 35, 'intermediate': 19, 'dna_negative': 67}
+classes (retained cells): 136 cores {'valid': 48, 'intermediate': 17, 'dna_negative': 71}; evaluable cores {'valid': 38, 'intermediate': 16, 'dna_negative': 67}
+class changes vs sheet (all objects): 1
+  ROI008_E12: valid (0.200) -> intermediate (0.208); objects 543; evaluable_for_IMC=yes
+class changes vs sheet (retained cells): 2
+  ROI002_F12: intermediate (0.227) -> valid (0.181); objects 155; evaluable_for_IMC=yes
+  ROI064_C9: intermediate (0.220) -> valid (0.167); objects 366; evaluable_for_IMC=yes
+run_finished: 2026-10-13T11:12:55; checks_failed=False
+

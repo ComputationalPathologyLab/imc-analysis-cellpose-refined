@@ -1,0 +1,38 @@
+CELL ANNOTATION AND CORE SELECTION
+run_started: 2026-10-13T11:06:37
+host: MacBook-Air-di-ICH.local; python: 3.14.6; pandas: 3.0.1
+dna_status_source: sheet
+ROIs in cells table: 136; missing in the core review sheet: none
+sheet vs TMA core map: facility_position mismatches=none; patient_id mismatches=none; region mismatches=none
+objects: 79739; without cell_status: 0; without dna_sum: 0; without core information: 0
+cores: 136; included (evaluable_for_IMC = yes): 121; excluded: {'out of scope (region mismatch on H&E)': 8, 'out of scope (non-neoplastic)': 7}
+included cores: patients 15; denominator 95.00 mm2
+objects in included cores: 62792; counted: 60250; phenotypable: 56734
+included cores by region and dna_status:
+  High inflammatory: dna_negative=15, intermediate=2, valid=7, total=24
+  High-grade: dna_negative=26, intermediate=9, valid=9, total=44
+  Low-grade: dna_negative=9, intermediate=2, valid=0, total=11
+  Tumor border (non-neopl.): dna_negative=5, intermediate=0, valid=18, total=23
+  Tumor periphery: dna_negative=12, intermediate=5, valid=2, total=19
+sensitivity flags among included cores: S1 he_core partial=9 ['E4', 'G15', 'G5', 'H8', 'I10', 'I15', 'I2', 'I8', 'J10']; S2 hemorrhage_not_drawn=11; S3 necrosis_not_drawn=1 ['A10']
+run_finished: 2026-10-13T11:06:38; checks_failed=False
+
+CELL ANNOTATION AND CORE SELECTION
+run_started: 2026-10-13T11:12:55
+host: MacBook-Air-di-ICH.local; python: 3.14.6; pandas: 3.0.1
+dna_status_source: sheet
+ROIs in cells table: 136; missing in the core review sheet: none
+sheet vs TMA core map: facility_position mismatches=none; patient_id mismatches=none; region mismatches=none
+objects: 79739; without cell_status: 0; without dna_sum: 0; without core information: 0
+cores: 136; included (evaluable_for_IMC = yes): 121; excluded: {'out of scope (region mismatch on H&E)': 8, 'out of scope (non-neoplastic)': 7}
+included cores: patients 15; denominator 95.00 mm2
+objects in included cores: 62792; counted: 60250; phenotypable: 56734
+included cores by region and dna_status:
+  High inflammatory: dna_negative=15, intermediate=2, valid=7, total=24
+  High-grade: dna_negative=26, intermediate=9, valid=9, total=44
+  Low-grade: dna_negative=9, intermediate=2, valid=0, total=11
+  Tumor border (non-neopl.): dna_negative=5, intermediate=0, valid=18, total=23
+  Tumor periphery: dna_negative=12, intermediate=5, valid=2, total=19
+sensitivity flags among included cores: S1 he_core partial=9 ['E4', 'G15', 'G5', 'H8', 'I10', 'I15', 'I2', 'I8', 'J10']; S2 hemorrhage_not_drawn=11; S3 necrosis_not_drawn=1 ['A10']
+run_finished: 2026-10-13T11:12:56; checks_failed=False
+

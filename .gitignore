@@ -1,0 +1,27 @@
+# macOS and editor noise
+.DS_Store
+.Rhistory
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+~$*
+
+# local environments, caches, scratch
+.venv/
+.cache/
+.matplotlib/
+.matplotlib_cache/
+tmp/
+
+# iCloud sync-conflict duplicates (repeated "<time> AM/PM" suffix in filename)
+*[0-9][0-9].[0-9][0-9]*AM*
+*[0-9][0-9].[0-9][0-9]*PM*
+
+# raw data (symlink to the predecessor project) and stacked images (10 GB; rebuilt by Step 3)
+data/raw
+data/img/
+*.mcd
+
+# discarded material
+TRASH/
+notebooks/TRASH/

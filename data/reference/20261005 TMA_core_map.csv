@@ -1,0 +1,137 @@
+roi,facility_position,facility_row,facility_column,patient_id,region,tumor_region,dna_status,cells,fraction_dna_negative_cells,DNA1_median_per_cell,DNA2_median_per_cell,DNA_pixel_p99
+ROI110_A15,A15,A,15,1,High-grade,True,valid,1033,0.157,4.8,8.659,20.0
+ROI058_B15,B15,B,15,1,High-grade,True,dna_negative,314,0.631,0.243,0.377,2.0
+ROI075_C15,C15,C,15,1,High-grade,True,dna_negative,404,0.636,0.223,0.372,3.0
+ROI076_D15,D15,D,15,1,Low-grade,True,dna_negative,442,0.762,0.176,0.292,3.0
+ROI038_E15,E15,E,15,1,High inflammatory,True,dna_negative,566,0.906,0.143,0.24,2.0
+ROI102_F15,F15,F,15,1,High inflammatory,True,dna_negative,754,0.897,0.215,0.351,3.0
+ROI132_G15,G15,G,15,1,Tumor periphery,True,dna_negative,373,0.716,0.156,0.274,2.0
+ROI068_H15,H15,H,15,1,Tumor periphery,True,dna_negative,211,0.957,0.111,0.165,2.0
+ROI113_I15,I15,I,15,1,Tumor border (non-neopl.),False,valid,179,0.061,1.644,2.859,4.0
+ROI024_J15,J15,J,15,1,Tumor border (non-neopl.),False,valid,996,0.009,4.371,7.732,16.0
+ROI007_K15,K15,K,15,1,Non-neoplastic,False,intermediate,1389,0.215,1.541,2.75,11.0
+ROI128_A14,A14,A,14,2,High-grade,True,intermediate,448,0.239,1.205,2.094,5.0
+ROI057_B14,B14,B,14,2,High-grade,True,valid,2108,0.005,6.031,10.737,33.0
+ROI028_C14,C14,C,14,2,High-grade,True,valid,3304,0.001,8.504,15.192,48.0
+ROI074_D14,D14,D,14,2,Low-grade,True,intermediate,813,0.284,0.872,1.548,4.0
+ROI011_E14,E14,E,14,2,High inflammatory,True,valid,1140,0.189,3.543,6.432,43.0
+ROI039_F14,F14,F,14,2,High inflammatory,True,valid,1629,0.051,8.621,15.357,48.0
+ROI067_G14,G14,G,14,2,Tumor periphery,True,intermediate,1012,0.426,0.553,0.94,4.0
+ROI072_H14,H14,H,14,2,Tumor periphery,True,valid,1358,0.131,2.883,5.152,16.0
+ROI073_I14,I14,I,14,2,Tumor border (non-neopl.),False,valid,604,0.028,5.187,9.074,17.0
+ROI070_J14,J14,J,14,2,Tumor border (non-neopl.),False,valid,703,0.031,3.719,6.618,14.0
+ROI108_A13,A13,A,13,3,High-grade,True,valid,872,0.002,7.762,13.992,33.0
+ROI056_B13,B13,B,13,3,High-grade,True,valid,1277,0.162,2.436,4.444,11.0
+ROI027_C13,C13,C,13,3,High-grade,True,valid,1047,0.039,5.667,10.143,20.0
+ROI066_E13,E13,E,13,3,High inflammatory,True,dna_negative,1202,0.575,0.289,0.469,3.0
+ROI023_F13,F13,F,13,3,High inflammatory,True,valid,2781,0.035,10.326,18.549,58.0
+ROI034_G13,G13,G,13,3,Tumor periphery,True,dna_negative,720,0.735,0.2,0.326,3.0
+ROI069_H13,H13,H,13,3,Tumor periphery,True,dna_negative,722,0.648,0.241,0.401,3.0
+ROI032_I13,I13,I,13,3,Tumor border (non-neopl.),False,valid,611,0.025,2.141,3.688,7.0
+ROI116_J13,J13,J,13,3,Tumor border (non-neopl.),False,valid,362,0.066,2.566,4.519,6.0
+ROI017_K13,K13,K,13,3,Non-neoplastic,False,valid,1096,0.005,3.5,6.319,12.0
+ROI119_A12,A12,A,12,4,High-grade,True,dna_negative,140,0.771,0.227,0.346,3.0
+ROI006_B12,B12,B,12,4,High-grade,True,intermediate,448,0.364,0.676,1.208,4.0
+ROI026_C12,C12,C,12,4,High-grade,True,intermediate,623,0.392,0.705,1.331,5.0
+ROI078_D12,D12,D,12,4,Low-grade,True,dna_negative,243,0.749,0.164,0.266,3.0
+ROI008_E12,E12,E,12,4,High inflammatory,True,valid,536,0.2,2.226,3.804,6.0
+ROI002_F12,F12,F,12,4,High inflammatory,True,intermediate,172,0.227,1.26,2.157,4.0
+ROI033_G12,G12,G,12,4,Tumor periphery,True,valid,632,0.098,2.0,3.5,6.0
+ROI012_H12,H12,H,12,4,Tumor periphery,True,intermediate,632,0.244,1.487,2.582,5.0
+ROI016_J12,J12,J,12,4,Tumor border (non-neopl.),False,valid,1377,0.001,15.364,26.907,66.0
+ROI049_K12,K12,K,12,4,Non-neoplastic,False,valid,773,0.003,6.0,10.581,22.0
+ROI125_A11,A11,A,11,5,High-grade,True,dna_negative,67,0.94,0.12,0.207,3.0
+ROI082_B11,B11,B,11,5,High-grade,True,dna_negative,244,0.844,0.155,0.244,2.0
+ROI083_C11,C11,C,11,5,High-grade,True,dna_negative,158,0.842,0.112,0.192,2.0
+ROI084_E11,E11,E,11,5,High inflammatory,True,dna_negative,131,0.954,0.086,0.135,2.0
+ROI085_F11,F11,F,11,5,High inflammatory,True,dna_negative,141,0.965,0.081,0.119,2.0
+ROI114_G11,G11,G,11,5,Tumor periphery,True,valid,171,0.076,3.025,5.206,9.0
+ROI086_H11,H11,H,11,5,Tumor periphery,True,valid,133,0.068,1.727,2.935,3.0
+ROI051_I11,I11,I,11,5,Tumor border (non-neopl.),False,dna_negative,236,0.843,0.107,0.174,2.0
+ROI071_J11,J11,J,11,5,Tumor border (non-neopl.),False,dna_negative,275,0.978,0.087,0.133,2.0
+ROI124_A10,A10,A,10,6,High-grade,True,intermediate,299,0.465,0.446,0.705,3.0
+ROI018_B10,B10,B,10,6,High-grade,True,valid,843,0.051,3.23,5.825,12.0
+ROI060_C10,C10,C,10,6,High-grade,True,intermediate,434,0.341,1.372,2.39,5.0
+ROI001_E10,E10,E,10,6,High inflammatory,True,intermediate,1108,0.24,1.526,2.738,8.0
+ROI037_F10,F10,F,10,6,High inflammatory,True,valid,1269,0.018,6.54,11.452,28.0
+ROI081_G10,G10,G,10,6,Tumor periphery,True,intermediate,651,0.264,2.0,3.531,10.0
+ROI087_H10,H10,H,10,6,Tumor periphery,True,intermediate,626,0.486,0.425,0.731,4.0
+ROI103_I10,I10,I,10,6,Tumor border (non-neopl.),False,valid,199,0.045,2.816,5.0,8.0
+ROI112_J10,J10,J,10,6,Tumor border (non-neopl.),False,valid,334,0.024,4.404,8.125,12.0
+ROI031_K10,K10,K,10,6,Non-neoplastic,False,valid,7994,0.0,21.122,37.207,123.0
+ROI131_A9,A9,A,9,7,High-grade,True,dna_negative,13,0.846,0.111,0.147,2.0
+ROI097_B9,B9,B,9,7,High-grade,True,dna_negative,104,0.798,0.16,0.219,2.0
+ROI064_C9,C9,C,9,7,High-grade,True,intermediate,395,0.22,0.69,1.186,3.0
+ROI092_D9,D9,D,9,7,Low-grade,True,dna_negative,114,0.956,0.087,0.135,3.0
+ROI127_E9,E9,E,9,7,High inflammatory,True,dna_negative,128,0.914,0.148,0.238,2.0
+ROI115_F9,F9,F,9,7,High inflammatory,True,dna_negative,35,0.971,0.16,0.266,2.0
+ROI013_G9,G9,G,9,7,Tumor periphery,True,valid,1119,0.01,5.564,9.919,22.0
+ROI010_H9,H9,H,9,7,Tumor periphery,True,valid,977,0.005,4.826,8.364,13.0
+ROI061_I9,I9,I,9,7,Tumor border (non-neopl.),False,valid,558,0.022,1.91,3.372,6.0
+ROI022_J9,J9,J,9,7,Tumor border (non-neopl.),False,valid,553,0.02,2.268,4.14,7.0
+ROI048_K9,K9,K,9,7,Non-neoplastic,False,valid,287,0.136,2.217,3.837,6.0
+ROI121_A8,A8,A,8,8,High-grade,True,dna_negative,162,0.537,0.299,0.544,3.0
+ROI053_B8,B8,B,8,8,High-grade,True,intermediate,550,0.267,3.611,6.259,10.0
+ROI137_C8,C8,C,8,8,High-grade,True,dna_negative,294,0.65,0.261,0.416,3.0
+ROI052_D8,D8,D,8,8,Low-grade,True,dna_negative,238,0.887,0.118,0.192,2.0
+ROI095_F8,F8,F,8,8,High inflammatory,True,dna_negative,549,0.565,0.289,0.454,5.0
+ROI050_G8,G8,G,8,8,Tumor periphery,True,dna_negative,293,0.672,0.212,0.344,2.0
+ROI120_H8,H8,H,8,8,Tumor periphery,True,dna_negative,129,0.767,0.158,0.259,2.0
+ROI104_I8,I8,I,8,8,Tumor border (non-neopl.),False,valid,80,0.088,1.09,2.081,3.0
+ROI122_A7,A7,A,7,9,High-grade,True,dna_negative,107,0.869,0.158,0.268,3.0
+ROI094_B7,B7,B,7,9,High-grade,True,dna_negative,159,0.711,0.218,0.36,3.0
+ROI079_C7,C7,C,7,9,High-grade,True,dna_negative,169,0.828,0.154,0.235,3.0
+ROI040_D7,D7,D,7,9,Low-grade,True,dna_negative,177,0.938,0.102,0.152,2.0
+ROI062_E7,E7,E,7,9,High inflammatory,True,dna_negative,220,0.918,0.094,0.136,2.0
+ROI077_F7,F7,F,7,9,High inflammatory,True,dna_negative,454,0.782,0.144,0.21,3.0
+ROI004_I7,I7,I,7,9,Tumor border (non-neopl.),False,valid,701,0.178,1.646,2.9,5.0
+ROI030_J7,J7,J,7,9,Tumor border (non-neopl.),False,valid,889,0.008,4.746,8.459,17.0
+ROI123_A6,A6,A,6,10,High-grade,True,dna_negative,51,0.961,0.093,0.154,2.0
+ROI063_B6,B6,B,6,10,High-grade,True,dna_negative,120,0.967,0.068,0.123,2.0
+ROI136_C6,C6,C,6,10,High-grade,True,dna_negative,124,0.798,0.157,0.237,2.0
+ROI098_D6,D6,D,6,10,Low-grade,True,dna_negative,95,0.726,0.221,0.413,3.0
+ROI133_E6,E6,E,6,10,High inflammatory,True,dna_negative,102,0.912,0.08,0.131,2.0
+ROI126_F6,F6,F,6,10,High inflammatory,True,dna_negative,103,0.942,0.107,0.172,2.0
+ROI105_G6,G6,G,6,10,Tumor periphery,True,dna_negative,72,0.972,0.108,0.155,2.0
+ROI042_H6,H6,H,6,10,Tumor periphery,True,dna_negative,193,0.99,0.059,0.1,2.0
+ROI088_I6,I6,I,6,10,Tumor border (non-neopl.),False,dna_negative,9,0.889,0.095,0.218,2.0
+ROI059_J6,J6,J,6,10,Tumor border (non-neopl.),False,dna_negative,63,0.984,0.098,0.191,2.0
+ROI036_K6,K6,K,6,10,Non-neoplastic,False,valid,560,0.002,3.718,6.685,10.0
+ROI107_A5,A5,A,5,11,High-grade,True,dna_negative,122,0.967,0.133,0.215,3.0
+ROI093_B5,B5,B,5,11,High-grade,True,dna_negative,69,0.913,0.147,0.217,2.0
+ROI014_C5,C5,C,5,11,High-grade,True,valid,1458,0.001,8.127,14.354,52.0
+ROI041_D5,D5,D,5,11,Low-grade,True,dna_negative,349,0.983,0.086,0.146,2.0
+ROI111_E5,E5,E,5,11,High inflammatory,True,dna_negative,148,0.757,0.193,0.342,3.0
+ROI096_F5,F5,F,5,11,High inflammatory,True,dna_negative,241,0.627,0.215,0.36,3.0
+ROI043_G5,G5,G,5,11,Tumor periphery,True,dna_negative,280,0.946,0.064,0.107,2.0
+ROI091_H5,H5,H,5,11,Tumor periphery,True,dna_negative,291,0.9,0.121,0.169,2.0
+ROI019_I5,I5,I,5,11,Tumor border (non-neopl.),False,dna_negative,238,0.836,0.14,0.221,2.0
+ROI109_J5,J5,J,5,11,Tumor border (non-neopl.),False,dna_negative,120,0.675,0.174,0.244,2.0
+ROI129_A4,A4,A,4,12,High-grade,True,valid,528,0.008,9.143,15.987,38.0
+ROI055_B4,B4,B,4,12,High-grade,True,dna_negative,625,0.8,0.178,0.296,2.0
+ROI003_C4,C4,C,4,12,High-grade,True,dna_negative,450,0.993,0.086,0.147,2.0
+ROI134_D4,D4,D,4,12,Low-grade,True,intermediate,795,0.47,0.423,0.714,3.0
+ROI054_E4,E4,E,4,12,High inflammatory,True,valid,501,0.084,1.743,3.016,5.0
+ROI044_F4,F4,F,4,12,High inflammatory,True,valid,960,0.023,9.249,16.336,42.0
+ROI025_I4,I4,I,4,12,Tumor border (non-neopl.),False,valid,457,0.129,1.844,3.218,5.0
+ROI005_J4,J4,J,4,12,Tumor border (non-neopl.),False,valid,710,0.031,2.818,5.0,9.0
+ROI130_A3,A3,A,3,13,High-grade,True,dna_negative,27,1.0,0.074,0.114,2.0
+ROI080_B3,B3,B,3,13,High-grade,True,dna_negative,128,1.0,0.086,0.145,2.0
+ROI101_C3,C3,C,3,13,High-grade,True,dna_negative,215,0.972,0.097,0.133,3.0
+ROI099_F3,F3,F,3,13,High inflammatory,True,dna_negative,165,0.988,0.085,0.152,2.0
+ROI009_G3,G3,G,3,13,Tumor periphery,True,dna_negative,263,0.989,0.075,0.114,2.0
+ROI089_I3,I3,I,3,13,Tumor border (non-neopl.),False,dna_negative,33,0.818,0.12,0.167,2.0
+ROI046_J3,J3,J,3,13,Tumor border (non-neopl.),False,dna_negative,40,0.975,0.136,0.225,2.0
+ROI047_K3,K3,K,3,13,Non-neoplastic,False,dna_negative,42,1.0,0.124,0.199,2.0
+ROI118_A2,A2,A,2,14,High-grade,True,dna_negative,261,0.713,0.172,0.273,3.0
+ROI100_B2,B2,B,2,14,High-grade,True,dna_negative,238,0.996,0.105,0.148,2.0
+ROI135_C2,C2,C,2,14,High-grade,True,dna_negative,260,0.838,0.149,0.239,2.0
+ROI015_D2,D2,D,2,14,Low-grade,True,dna_negative,225,0.951,0.088,0.147,2.0
+ROI090_G2,G2,G,2,14,Tumor periphery,True,dna_negative,434,0.7,0.203,0.3,3.0
+ROI045_I2,I2,I,2,14,Tumor border (non-neopl.),False,valid,79,0.038,4.056,7.328,4.0
+ROI029_J2,J2,J,2,14,Tumor border (non-neopl.),False,valid,1736,0.131,2.125,3.778,14.0
+ROI117_A1,A1,A,1,15,High-grade,True,intermediate,300,0.35,0.606,1.0,3.0
+ROI035_C1,C1,C,1,15,High-grade,True,intermediate,1789,0.452,0.5,0.886,6.0
+ROI065_D1,D1,D,1,15,Low-grade,True,dna_negative,1031,0.823,0.122,0.19,2.0
+ROI020_G1,G1,G,1,15,Tumor periphery,True,intermediate,1418,0.306,0.902,1.585,6.0
+ROI106_J1,J1,J,1,15,Tumor border (non-neopl.),False,valid,121,0.099,0.878,1.557,3.0

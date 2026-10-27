@@ -1,0 +1,930 @@
+MANUAL REVIEW APPLICATION
+run_started: 2026-10-13T10:15:41
+host: MacBook-Air-di-ICH.local
+python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; shapely: 2.1.2; rasterio: 1.5.2
+release: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/reference/manual_review/20261012_v1
+masks_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/masks
+output_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/manual_review
+manifest: 145 files checked; mismatches: none; unlisted files: none
+rules: scripts/apply_manual_review.py (reviewer's reference implementation, unchanged)
+
+ROI001_E10	objects=1133	clean=989	phenotype_not_assessable=104	aggregate_removed=20	outside_evaluable_area=20	denominator_px=764669
+ROI002_F12	objects=171	clean=136	phenotype_not_assessable=19	aggregate_removed=16	outside_evaluable_area=0	denominator_px=994707
+ROI003_C4	objects=465	clean=444	phenotype_not_assessable=3	aggregate_removed=1	outside_evaluable_area=17	denominator_px=824674
+ROI004_I7	objects=707	clean=660	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=21	denominator_px=734551
+ROI005_J4	objects=717	clean=708	phenotype_not_assessable=7	aggregate_removed=1	outside_evaluable_area=1	denominator_px=812168
+ROI006_B12	objects=449	clean=341	phenotype_not_assessable=59	aggregate_removed=49	outside_evaluable_area=0	denominator_px=947614
+ROI007_K15	objects=1391	clean=1378	phenotype_not_assessable=8	aggregate_removed=4	outside_evaluable_area=1	denominator_px=915637
+ROI008_E12	objects=543	clean=458	phenotype_not_assessable=31	aggregate_removed=53	outside_evaluable_area=1	denominator_px=943705
+ROI009_G3	objects=265	clean=248	phenotype_not_assessable=3	aggregate_removed=6	outside_evaluable_area=8	denominator_px=878907
+ROI010_H9	objects=979	clean=917	phenotype_not_assessable=31	aggregate_removed=17	outside_evaluable_area=14	denominator_px=836640
+ROI011_E14	objects=1145	clean=1045	phenotype_not_assessable=79	aggregate_removed=21	outside_evaluable_area=0	denominator_px=952316
+ROI012_H12	objects=633	clean=569	phenotype_not_assessable=54	aggregate_removed=10	outside_evaluable_area=0	denominator_px=934565
+ROI013_G9	objects=1124	clean=1087	phenotype_not_assessable=20	aggregate_removed=7	outside_evaluable_area=10	denominator_px=797575
+ROI014_C5	objects=1459	clean=1390	phenotype_not_assessable=44	aggregate_removed=4	outside_evaluable_area=21	denominator_px=795215
+ROI015_D2	objects=229	clean=197	phenotype_not_assessable=10	aggregate_removed=14	outside_evaluable_area=8	denominator_px=812412
+ROI016_J12	objects=1429	clean=1387	phenotype_not_assessable=37	aggregate_removed=4	outside_evaluable_area=1	denominator_px=863040
+ROI017_K13	objects=1080	clean=1049	phenotype_not_assessable=17	aggregate_removed=2	outside_evaluable_area=12	denominator_px=880835
+ROI018_B10	objects=846	clean=716	phenotype_not_assessable=114	aggregate_removed=13	outside_evaluable_area=3	denominator_px=780395
+ROI019_I5	objects=235	clean=190	phenotype_not_assessable=15	aggregate_removed=19	outside_evaluable_area=11	denominator_px=843887
+ROI020_G1	objects=1431	clean=1345	phenotype_not_assessable=39	aggregate_removed=46	outside_evaluable_area=1	denominator_px=941138
+ROI022_J9	objects=553	clean=462	phenotype_not_assessable=80	aggregate_removed=4	outside_evaluable_area=7	denominator_px=795606
+ROI023_F13	objects=2797	clean=2659	phenotype_not_assessable=118	aggregate_removed=18	outside_evaluable_area=2	denominator_px=964336
+ROI024_J15	objects=997	clean=979	phenotype_not_assessable=9	aggregate_removed=9	outside_evaluable_area=0	denominator_px=882288
+ROI025_I4	objects=459	clean=436	phenotype_not_assessable=11	aggregate_removed=4	outside_evaluable_area=8	denominator_px=816230
+ROI026_C12	objects=625	clean=501	phenotype_not_assessable=76	aggregate_removed=48	outside_evaluable_area=0	denominator_px=935817
+ROI027_C13	objects=1071	clean=1014	phenotype_not_assessable=26	aggregate_removed=24	outside_evaluable_area=7	denominator_px=923554
+ROI028_C14	objects=3316	clean=3234	phenotype_not_assessable=69	aggregate_removed=5	outside_evaluable_area=8	denominator_px=828960
+ROI029_J2	objects=1732	clean=1627	phenotype_not_assessable=91	aggregate_removed=12	outside_evaluable_area=2	denominator_px=903946
+ROI030_J7	objects=901	clean=873	phenotype_not_assessable=21	aggregate_removed=4	outside_evaluable_area=3	denominator_px=856843
+ROI031_K10	objects=7991	clean=7702	phenotype_not_assessable=183	aggregate_removed=4	outside_evaluable_area=102	denominator_px=793054
+ROI032_I13	objects=615	clean=551	phenotype_not_assessable=34	aggregate_removed=17	outside_evaluable_area=13	denominator_px=821206
+ROI033_G12	objects=621	clean=595	phenotype_not_assessable=14	aggregate_removed=9	outside_evaluable_area=3	denominator_px=884598
+ROI034_G13	objects=725	clean=546	phenotype_not_assessable=63	aggregate_removed=108	outside_evaluable_area=8	denominator_px=941080
+ROI035_C1	objects=1787	clean=1759	phenotype_not_assessable=15	aggregate_removed=2	outside_evaluable_area=11	denominator_px=598470
+ROI036_K6	objects=564	clean=557	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=1	denominator_px=830129
+ROI037_F10	objects=1273	clean=1239	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=5	denominator_px=801882
+ROI038_E15	objects=559	clean=555	phenotype_not_assessable=0	aggregate_removed=1	outside_evaluable_area=3	denominator_px=887802
+ROI039_F14	objects=1630	clean=1543	phenotype_not_assessable=75	aggregate_removed=12	outside_evaluable_area=0	denominator_px=917231
+ROI040_D7	objects=179	clean=144	phenotype_not_assessable=15	aggregate_removed=12	outside_evaluable_area=8	denominator_px=894467
+ROI041_D5	objects=368	clean=335	phenotype_not_assessable=6	aggregate_removed=19	outside_evaluable_area=8	denominator_px=891975
+ROI042_H6	objects=192	clean=173	phenotype_not_assessable=5	aggregate_removed=8	outside_evaluable_area=6	denominator_px=900925
+ROI043_G5	objects=283	clean=210	phenotype_not_assessable=18	aggregate_removed=42	outside_evaluable_area=13	denominator_px=780926
+ROI044_F4	objects=963	clean=826	phenotype_not_assessable=111	aggregate_removed=20	outside_evaluable_area=6	denominator_px=850059
+ROI045_I2	objects=78	clean=74	phenotype_not_assessable=1	aggregate_removed=1	outside_evaluable_area=2	denominator_px=785659
+ROI046_J3	objects=38	clean=32	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=1	denominator_px=948628
+ROI047_K3	objects=45	clean=40	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=2	denominator_px=731545
+ROI048_K9	objects=302	clean=288	phenotype_not_assessable=10	aggregate_removed=0	outside_evaluable_area=4	denominator_px=851182
+ROI049_K12	objects=783	clean=598	phenotype_not_assessable=165	aggregate_removed=18	outside_evaluable_area=2	denominator_px=855410
+ROI050_G8	objects=294	clean=182	phenotype_not_assessable=67	aggregate_removed=41	outside_evaluable_area=4	denominator_px=887921
+ROI051_I11	objects=253	clean=219	phenotype_not_assessable=16	aggregate_removed=16	outside_evaluable_area=2	denominator_px=871712
+ROI052_D8	objects=248	clean=143	phenotype_not_assessable=29	aggregate_removed=67	outside_evaluable_area=9	denominator_px=873899
+ROI053_B8	objects=547	clean=478	phenotype_not_assessable=37	aggregate_removed=28	outside_evaluable_area=4	denominator_px=850355
+ROI054_E4	objects=504	clean=472	phenotype_not_assessable=18	aggregate_removed=14	outside_evaluable_area=0	denominator_px=995788
+ROI055_B4	objects=626	clean=571	phenotype_not_assessable=22	aggregate_removed=31	outside_evaluable_area=2	denominator_px=926701
+ROI056_B13	objects=1285	clean=1206	phenotype_not_assessable=61	aggregate_removed=17	outside_evaluable_area=1	denominator_px=926807
+ROI057_B14	objects=2105	clean=2061	phenotype_not_assessable=35	aggregate_removed=7	outside_evaluable_area=2	denominator_px=888735
+ROI058_B15	objects=322	clean=252	phenotype_not_assessable=14	aggregate_removed=48	outside_evaluable_area=8	denominator_px=889111
+ROI059_J6	objects=66	clean=61	phenotype_not_assessable=1	aggregate_removed=4	outside_evaluable_area=0	denominator_px=897997
+ROI060_C10	objects=427	clean=390	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=6	denominator_px=854612
+ROI061_I9	objects=556	clean=516	phenotype_not_assessable=30	aggregate_removed=5	outside_evaluable_area=5	denominator_px=809148
+ROI062_E7	objects=219	clean=170	phenotype_not_assessable=21	aggregate_removed=26	outside_evaluable_area=2	denominator_px=912920
+ROI063_B6	objects=104	clean=79	phenotype_not_assessable=4	aggregate_removed=18	outside_evaluable_area=3	denominator_px=863108
+ROI064_C9	objects=394	clean=352	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=11	denominator_px=837722
+ROI065_D1	objects=1015	clean=971	phenotype_not_assessable=16	aggregate_removed=17	outside_evaluable_area=11	denominator_px=858197
+ROI066_E13	objects=1195	clean=969	phenotype_not_assessable=122	aggregate_removed=96	outside_evaluable_area=8	denominator_px=931704
+ROI067_G14	objects=1018	clean=949	phenotype_not_assessable=40	aggregate_removed=26	outside_evaluable_area=3	denominator_px=945176
+ROI068_H15	objects=212	clean=200	phenotype_not_assessable=6	aggregate_removed=3	outside_evaluable_area=3	denominator_px=837143
+ROI069_H13	objects=730	clean=607	phenotype_not_assessable=51	aggregate_removed=61	outside_evaluable_area=11	denominator_px=900000
+ROI070_J14	objects=703	clean=677	phenotype_not_assessable=10	aggregate_removed=11	outside_evaluable_area=5	denominator_px=863709
+ROI071_J11	objects=292	clean=267	phenotype_not_assessable=10	aggregate_removed=15	outside_evaluable_area=0	denominator_px=924498
+ROI072_H14	objects=1369	clean=1310	phenotype_not_assessable=39	aggregate_removed=13	outside_evaluable_area=7	denominator_px=956708
+ROI073_I14	objects=603	clean=570	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=5	denominator_px=834717
+ROI074_D14	objects=804	clean=734	phenotype_not_assessable=33	aggregate_removed=29	outside_evaluable_area=8	denominator_px=875540
+ROI075_C15	objects=394	clean=371	phenotype_not_assessable=16	aggregate_removed=2	outside_evaluable_area=5	denominator_px=881490
+ROI076_D15	objects=439	clean=422	phenotype_not_assessable=16	aggregate_removed=0	outside_evaluable_area=1	denominator_px=902528
+ROI077_F7	objects=457	clean=378	phenotype_not_assessable=51	aggregate_removed=22	outside_evaluable_area=6	denominator_px=904795
+ROI078_D12	objects=244	clean=187	phenotype_not_assessable=51	aggregate_removed=5	outside_evaluable_area=1	denominator_px=918275
+ROI079_C7	objects=173	clean=133	phenotype_not_assessable=23	aggregate_removed=14	outside_evaluable_area=3	denominator_px=850376
+ROI080_B3	objects=130	clean=115	phenotype_not_assessable=1	aggregate_removed=0	outside_evaluable_area=14	denominator_px=807464
+ROI081_G10	objects=653	clean=571	phenotype_not_assessable=66	aggregate_removed=11	outside_evaluable_area=5	denominator_px=867903
+ROI082_B11	objects=216	clean=171	phenotype_not_assessable=14	aggregate_removed=24	outside_evaluable_area=7	denominator_px=918428
+ROI083_C11	objects=164	clean=124	phenotype_not_assessable=4	aggregate_removed=25	outside_evaluable_area=11	denominator_px=914942
+ROI084_E11	objects=133	clean=120	phenotype_not_assessable=0	aggregate_removed=8	outside_evaluable_area=5	denominator_px=893642
+ROI085_F11	objects=141	clean=127	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=6	denominator_px=820214
+ROI086_H11	objects=131	clean=116	phenotype_not_assessable=7	aggregate_removed=6	outside_evaluable_area=2	denominator_px=811971
+ROI087_H10	objects=627	clean=576	phenotype_not_assessable=34	aggregate_removed=12	outside_evaluable_area=5	denominator_px=885446
+ROI088_I6	objects=9	clean=5	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=1	denominator_px=871798
+ROI089_I3	objects=36	clean=21	phenotype_not_assessable=5	aggregate_removed=10	outside_evaluable_area=0	denominator_px=894936
+ROI090_G2	objects=432	clean=375	phenotype_not_assessable=39	aggregate_removed=6	outside_evaluable_area=12	denominator_px=821707
+ROI091_H5	objects=295	clean=214	phenotype_not_assessable=34	aggregate_removed=43	outside_evaluable_area=4	denominator_px=893962
+ROI092_D9	objects=108	clean=96	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=820667
+ROI093_B5	objects=77	clean=70	phenotype_not_assessable=2	aggregate_removed=2	outside_evaluable_area=3	denominator_px=787994
+ROI094_B7	objects=158	clean=132	phenotype_not_assessable=13	aggregate_removed=12	outside_evaluable_area=1	denominator_px=902995
+ROI095_F8	objects=547	clean=350	phenotype_not_assessable=184	aggregate_removed=10	outside_evaluable_area=3	denominator_px=900123
+ROI096_F5	objects=241	clean=190	phenotype_not_assessable=19	aggregate_removed=24	outside_evaluable_area=8	denominator_px=836602
+ROI097_B9	objects=104	clean=89	phenotype_not_assessable=13	aggregate_removed=2	outside_evaluable_area=0	denominator_px=796430
+ROI098_D6	objects=97	clean=90	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=4	denominator_px=830519
+ROI099_F3	objects=166	clean=145	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=13	denominator_px=826440
+ROI100_B2	objects=237	clean=208	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=0	denominator_px=660276
+ROI101_C3	objects=217	clean=206	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=4	denominator_px=914941
+ROI102_F15	objects=776	clean=756	phenotype_not_assessable=7	aggregate_removed=11	outside_evaluable_area=2	denominator_px=875153
+ROI103_I10	objects=205	clean=180	phenotype_not_assessable=11	aggregate_removed=9	outside_evaluable_area=5	denominator_px=371376
+ROI104_I8	objects=80	clean=74	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=0	denominator_px=231201
+ROI105_G6	objects=74	clean=60	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=633881
+ROI106_J1	objects=126	clean=119	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=2	denominator_px=749174
+ROI107_A5	objects=127	clean=106	phenotype_not_assessable=2	aggregate_removed=12	outside_evaluable_area=7	denominator_px=287685
+ROI108_A13	objects=875	clean=750	phenotype_not_assessable=112	aggregate_removed=9	outside_evaluable_area=4	denominator_px=456305
+ROI109_J5	objects=128	clean=82	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=20	denominator_px=860417
+ROI110_A15	objects=1031	clean=893	phenotype_not_assessable=110	aggregate_removed=12	outside_evaluable_area=16	denominator_px=661802
+ROI111_E5	objects=148	clean=119	phenotype_not_assessable=14	aggregate_removed=15	outside_evaluable_area=0	denominator_px=405306
+ROI112_J10	objects=326	clean=294	phenotype_not_assessable=27	aggregate_removed=5	outside_evaluable_area=0	denominator_px=753592
+ROI113_I15	objects=174	clean=146	phenotype_not_assessable=16	aggregate_removed=6	outside_evaluable_area=6	denominator_px=465260
+ROI114_G11	objects=170	clean=113	phenotype_not_assessable=47	aggregate_removed=10	outside_evaluable_area=0	denominator_px=387607
+ROI115_F9	objects=34	clean=19	phenotype_not_assessable=9	aggregate_removed=6	outside_evaluable_area=0	denominator_px=386023
+ROI116_J13	objects=359	clean=314	phenotype_not_assessable=24	aggregate_removed=12	outside_evaluable_area=9	denominator_px=828288
+ROI117_A1	objects=293	clean=266	phenotype_not_assessable=11	aggregate_removed=15	outside_evaluable_area=1	denominator_px=385092
+ROI118_A2	objects=261	clean=251	phenotype_not_assessable=8	aggregate_removed=0	outside_evaluable_area=2	denominator_px=468451
+ROI119_A12	objects=137	clean=103	phenotype_not_assessable=14	aggregate_removed=13	outside_evaluable_area=7	denominator_px=474704
+ROI120_H8	objects=129	clean=68	phenotype_not_assessable=24	aggregate_removed=24	outside_evaluable_area=13	denominator_px=574102
+ROI121_A8	objects=162	clean=121	phenotype_not_assessable=28	aggregate_removed=10	outside_evaluable_area=3	denominator_px=536455
+ROI122_A7	objects=119	clean=105	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=383234
+ROI123_A6	objects=50	clean=36	phenotype_not_assessable=3	aggregate_removed=5	outside_evaluable_area=6	denominator_px=385338
+ROI124_A10	objects=299	clean=231	phenotype_not_assessable=64	aggregate_removed=3	outside_evaluable_area=1	denominator_px=500162
+ROI125_A11	objects=63	clean=51	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=462820
+ROI126_F6	objects=105	clean=67	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=10	denominator_px=853611
+ROI127_E9	objects=129	clean=63	phenotype_not_assessable=39	aggregate_removed=24	outside_evaluable_area=3	denominator_px=805920
+ROI128_A14	objects=446	clean=428	phenotype_not_assessable=6	aggregate_removed=10	outside_evaluable_area=2	denominator_px=519730
+ROI129_A4	objects=529	clean=471	phenotype_not_assessable=54	aggregate_removed=3	outside_evaluable_area=1	denominator_px=398846
+ROI130_A3	objects=27	clean=27	phenotype_not_assessable=0	aggregate_removed=0	outside_evaluable_area=0	denominator_px=356463
+ROI131_A9	objects=12	clean=5	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=4	denominator_px=229853
+ROI132_G15	objects=370	clean=352	phenotype_not_assessable=10	aggregate_removed=3	outside_evaluable_area=5	denominator_px=807099
+ROI133_E6	objects=103	clean=70	phenotype_not_assessable=3	aggregate_removed=21	outside_evaluable_area=9	denominator_px=815394
+ROI134_D4	objects=797	clean=696	phenotype_not_assessable=33	aggregate_removed=39	outside_evaluable_area=29	denominator_px=860440
+ROI135_C2	objects=259	clean=228	phenotype_not_assessable=12	aggregate_removed=12	outside_evaluable_area=7	denominator_px=882317
+ROI136_C6	objects=126	clean=87	phenotype_not_assessable=8	aggregate_removed=24	outside_evaluable_area=7	denominator_px=804466
+ROI137_C8	objects=295	clean=180	phenotype_not_assessable=58	aggregate_removed=38	outside_evaluable_area=19	denominator_px=886316
+
+skipped (no release GeoJSON): none
+ROIs: 136; objects: 79739; {'clean': 72745, 'phenotype_not_assessable': 4149, 'aggregate_removed': 2000, 'outside_evaluable_area': 845}
+denominator identical to the release in every ROI
+included cores (evaluable_for_IMC = yes): 121; objects: 62792; denominator_mm2: 95.00
+  clean=56734 (90.35%); phenotype_not_assessable=3516 (5.60%); aggregate_removed=1880 (2.99%); outside_evaluable_area=662 (1.05%)
+cells table check: 79739 objects in data/cells.csv; unmatched: 0; area differences: 0
+run_finished: 2026-10-13T10:15:45; checks_failed=False
+
+MANUAL REVIEW APPLICATION
+run_started: 2026-10-13T10:16:17
+host: MacBook-Air-di-ICH.local
+python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; shapely: 2.1.2; rasterio: 1.5.2
+release: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/reference/manual_review/20261012_v1
+masks_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/masks
+output_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/manual_review
+manifest: 145 files checked; mismatches: none; unlisted files: none
+rules: scripts/apply_manual_review.py (reviewer's reference implementation, unchanged)
+
+ROI001_E10	objects=1133	clean=989	phenotype_not_assessable=104	aggregate_removed=20	outside_evaluable_area=20	denominator_px=764669
+ROI002_F12	objects=171	clean=136	phenotype_not_assessable=19	aggregate_removed=16	outside_evaluable_area=0	denominator_px=994707
+ROI003_C4	objects=465	clean=444	phenotype_not_assessable=3	aggregate_removed=1	outside_evaluable_area=17	denominator_px=824674
+ROI004_I7	objects=707	clean=660	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=21	denominator_px=734551
+ROI005_J4	objects=717	clean=708	phenotype_not_assessable=7	aggregate_removed=1	outside_evaluable_area=1	denominator_px=812168
+ROI006_B12	objects=449	clean=341	phenotype_not_assessable=59	aggregate_removed=49	outside_evaluable_area=0	denominator_px=947614
+ROI007_K15	objects=1391	clean=1378	phenotype_not_assessable=8	aggregate_removed=4	outside_evaluable_area=1	denominator_px=915637
+ROI008_E12	objects=543	clean=458	phenotype_not_assessable=31	aggregate_removed=53	outside_evaluable_area=1	denominator_px=943705
+ROI009_G3	objects=265	clean=248	phenotype_not_assessable=3	aggregate_removed=6	outside_evaluable_area=8	denominator_px=878907
+ROI010_H9	objects=979	clean=917	phenotype_not_assessable=31	aggregate_removed=17	outside_evaluable_area=14	denominator_px=836640
+ROI011_E14	objects=1145	clean=1045	phenotype_not_assessable=79	aggregate_removed=21	outside_evaluable_area=0	denominator_px=952316
+ROI012_H12	objects=633	clean=569	phenotype_not_assessable=54	aggregate_removed=10	outside_evaluable_area=0	denominator_px=934565
+ROI013_G9	objects=1124	clean=1087	phenotype_not_assessable=20	aggregate_removed=7	outside_evaluable_area=10	denominator_px=797575
+ROI014_C5	objects=1459	clean=1390	phenotype_not_assessable=44	aggregate_removed=4	outside_evaluable_area=21	denominator_px=795215
+ROI015_D2	objects=229	clean=197	phenotype_not_assessable=10	aggregate_removed=14	outside_evaluable_area=8	denominator_px=812412
+ROI016_J12	objects=1429	clean=1387	phenotype_not_assessable=37	aggregate_removed=4	outside_evaluable_area=1	denominator_px=863040
+ROI017_K13	objects=1080	clean=1049	phenotype_not_assessable=17	aggregate_removed=2	outside_evaluable_area=12	denominator_px=880835
+ROI018_B10	objects=846	clean=716	phenotype_not_assessable=114	aggregate_removed=13	outside_evaluable_area=3	denominator_px=780395
+ROI019_I5	objects=235	clean=190	phenotype_not_assessable=15	aggregate_removed=19	outside_evaluable_area=11	denominator_px=843887
+ROI020_G1	objects=1431	clean=1345	phenotype_not_assessable=39	aggregate_removed=46	outside_evaluable_area=1	denominator_px=941138
+ROI022_J9	objects=553	clean=462	phenotype_not_assessable=80	aggregate_removed=4	outside_evaluable_area=7	denominator_px=795606
+ROI023_F13	objects=2797	clean=2659	phenotype_not_assessable=118	aggregate_removed=18	outside_evaluable_area=2	denominator_px=964336
+ROI024_J15	objects=997	clean=979	phenotype_not_assessable=9	aggregate_removed=9	outside_evaluable_area=0	denominator_px=882288
+ROI025_I4	objects=459	clean=436	phenotype_not_assessable=11	aggregate_removed=4	outside_evaluable_area=8	denominator_px=816230
+ROI026_C12	objects=625	clean=501	phenotype_not_assessable=76	aggregate_removed=48	outside_evaluable_area=0	denominator_px=935817
+ROI027_C13	objects=1071	clean=1014	phenotype_not_assessable=26	aggregate_removed=24	outside_evaluable_area=7	denominator_px=923554
+ROI028_C14	objects=3316	clean=3234	phenotype_not_assessable=69	aggregate_removed=5	outside_evaluable_area=8	denominator_px=828960
+ROI029_J2	objects=1732	clean=1627	phenotype_not_assessable=91	aggregate_removed=12	outside_evaluable_area=2	denominator_px=903946
+ROI030_J7	objects=901	clean=873	phenotype_not_assessable=21	aggregate_removed=4	outside_evaluable_area=3	denominator_px=856843
+ROI031_K10	objects=7991	clean=7702	phenotype_not_assessable=183	aggregate_removed=4	outside_evaluable_area=102	denominator_px=793054
+ROI032_I13	objects=615	clean=551	phenotype_not_assessable=34	aggregate_removed=17	outside_evaluable_area=13	denominator_px=821206
+ROI033_G12	objects=621	clean=595	phenotype_not_assessable=14	aggregate_removed=9	outside_evaluable_area=3	denominator_px=884598
+ROI034_G13	objects=725	clean=546	phenotype_not_assessable=63	aggregate_removed=108	outside_evaluable_area=8	denominator_px=941080
+ROI035_C1	objects=1787	clean=1759	phenotype_not_assessable=15	aggregate_removed=2	outside_evaluable_area=11	denominator_px=598470
+ROI036_K6	objects=564	clean=557	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=1	denominator_px=830129
+ROI037_F10	objects=1273	clean=1239	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=5	denominator_px=801882
+ROI038_E15	objects=559	clean=555	phenotype_not_assessable=0	aggregate_removed=1	outside_evaluable_area=3	denominator_px=887802
+ROI039_F14	objects=1630	clean=1543	phenotype_not_assessable=75	aggregate_removed=12	outside_evaluable_area=0	denominator_px=917231
+ROI040_D7	objects=179	clean=144	phenotype_not_assessable=15	aggregate_removed=12	outside_evaluable_area=8	denominator_px=894467
+ROI041_D5	objects=368	clean=335	phenotype_not_assessable=6	aggregate_removed=19	outside_evaluable_area=8	denominator_px=891975
+ROI042_H6	objects=192	clean=173	phenotype_not_assessable=5	aggregate_removed=8	outside_evaluable_area=6	denominator_px=900925
+ROI043_G5	objects=283	clean=210	phenotype_not_assessable=18	aggregate_removed=42	outside_evaluable_area=13	denominator_px=780926
+ROI044_F4	objects=963	clean=826	phenotype_not_assessable=111	aggregate_removed=20	outside_evaluable_area=6	denominator_px=850059
+ROI045_I2	objects=78	clean=74	phenotype_not_assessable=1	aggregate_removed=1	outside_evaluable_area=2	denominator_px=785659
+ROI046_J3	objects=38	clean=32	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=1	denominator_px=948628
+ROI047_K3	objects=45	clean=40	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=2	denominator_px=731545
+ROI048_K9	objects=302	clean=288	phenotype_not_assessable=10	aggregate_removed=0	outside_evaluable_area=4	denominator_px=851182
+ROI049_K12	objects=783	clean=598	phenotype_not_assessable=165	aggregate_removed=18	outside_evaluable_area=2	denominator_px=855410
+ROI050_G8	objects=294	clean=182	phenotype_not_assessable=67	aggregate_removed=41	outside_evaluable_area=4	denominator_px=887921
+ROI051_I11	objects=253	clean=219	phenotype_not_assessable=16	aggregate_removed=16	outside_evaluable_area=2	denominator_px=871712
+ROI052_D8	objects=248	clean=143	phenotype_not_assessable=29	aggregate_removed=67	outside_evaluable_area=9	denominator_px=873899
+ROI053_B8	objects=547	clean=478	phenotype_not_assessable=37	aggregate_removed=28	outside_evaluable_area=4	denominator_px=850355
+ROI054_E4	objects=504	clean=472	phenotype_not_assessable=18	aggregate_removed=14	outside_evaluable_area=0	denominator_px=995788
+ROI055_B4	objects=626	clean=571	phenotype_not_assessable=22	aggregate_removed=31	outside_evaluable_area=2	denominator_px=926701
+ROI056_B13	objects=1285	clean=1206	phenotype_not_assessable=61	aggregate_removed=17	outside_evaluable_area=1	denominator_px=926807
+ROI057_B14	objects=2105	clean=2061	phenotype_not_assessable=35	aggregate_removed=7	outside_evaluable_area=2	denominator_px=888735
+ROI058_B15	objects=322	clean=252	phenotype_not_assessable=14	aggregate_removed=48	outside_evaluable_area=8	denominator_px=889111
+ROI059_J6	objects=66	clean=61	phenotype_not_assessable=1	aggregate_removed=4	outside_evaluable_area=0	denominator_px=897997
+ROI060_C10	objects=427	clean=390	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=6	denominator_px=854612
+ROI061_I9	objects=556	clean=516	phenotype_not_assessable=30	aggregate_removed=5	outside_evaluable_area=5	denominator_px=809148
+ROI062_E7	objects=219	clean=170	phenotype_not_assessable=21	aggregate_removed=26	outside_evaluable_area=2	denominator_px=912920
+ROI063_B6	objects=104	clean=79	phenotype_not_assessable=4	aggregate_removed=18	outside_evaluable_area=3	denominator_px=863108
+ROI064_C9	objects=394	clean=352	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=11	denominator_px=837722
+ROI065_D1	objects=1015	clean=971	phenotype_not_assessable=16	aggregate_removed=17	outside_evaluable_area=11	denominator_px=858197
+ROI066_E13	objects=1195	clean=969	phenotype_not_assessable=122	aggregate_removed=96	outside_evaluable_area=8	denominator_px=931704
+ROI067_G14	objects=1018	clean=949	phenotype_not_assessable=40	aggregate_removed=26	outside_evaluable_area=3	denominator_px=945176
+ROI068_H15	objects=212	clean=200	phenotype_not_assessable=6	aggregate_removed=3	outside_evaluable_area=3	denominator_px=837143
+ROI069_H13	objects=730	clean=607	phenotype_not_assessable=51	aggregate_removed=61	outside_evaluable_area=11	denominator_px=900000
+ROI070_J14	objects=703	clean=677	phenotype_not_assessable=10	aggregate_removed=11	outside_evaluable_area=5	denominator_px=863709
+ROI071_J11	objects=292	clean=267	phenotype_not_assessable=10	aggregate_removed=15	outside_evaluable_area=0	denominator_px=924498
+ROI072_H14	objects=1369	clean=1310	phenotype_not_assessable=39	aggregate_removed=13	outside_evaluable_area=7	denominator_px=956708
+ROI073_I14	objects=603	clean=570	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=5	denominator_px=834717
+ROI074_D14	objects=804	clean=734	phenotype_not_assessable=33	aggregate_removed=29	outside_evaluable_area=8	denominator_px=875540
+ROI075_C15	objects=394	clean=371	phenotype_not_assessable=16	aggregate_removed=2	outside_evaluable_area=5	denominator_px=881490
+ROI076_D15	objects=439	clean=422	phenotype_not_assessable=16	aggregate_removed=0	outside_evaluable_area=1	denominator_px=902528
+ROI077_F7	objects=457	clean=378	phenotype_not_assessable=51	aggregate_removed=22	outside_evaluable_area=6	denominator_px=904795
+ROI078_D12	objects=244	clean=187	phenotype_not_assessable=51	aggregate_removed=5	outside_evaluable_area=1	denominator_px=918275
+ROI079_C7	objects=173	clean=133	phenotype_not_assessable=23	aggregate_removed=14	outside_evaluable_area=3	denominator_px=850376
+ROI080_B3	objects=130	clean=115	phenotype_not_assessable=1	aggregate_removed=0	outside_evaluable_area=14	denominator_px=807464
+ROI081_G10	objects=653	clean=571	phenotype_not_assessable=66	aggregate_removed=11	outside_evaluable_area=5	denominator_px=867903
+ROI082_B11	objects=216	clean=171	phenotype_not_assessable=14	aggregate_removed=24	outside_evaluable_area=7	denominator_px=918428
+ROI083_C11	objects=164	clean=124	phenotype_not_assessable=4	aggregate_removed=25	outside_evaluable_area=11	denominator_px=914942
+ROI084_E11	objects=133	clean=120	phenotype_not_assessable=0	aggregate_removed=8	outside_evaluable_area=5	denominator_px=893642
+ROI085_F11	objects=141	clean=127	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=6	denominator_px=820214
+ROI086_H11	objects=131	clean=116	phenotype_not_assessable=7	aggregate_removed=6	outside_evaluable_area=2	denominator_px=811971
+ROI087_H10	objects=627	clean=576	phenotype_not_assessable=34	aggregate_removed=12	outside_evaluable_area=5	denominator_px=885446
+ROI088_I6	objects=9	clean=5	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=1	denominator_px=871798
+ROI089_I3	objects=36	clean=21	phenotype_not_assessable=5	aggregate_removed=10	outside_evaluable_area=0	denominator_px=894936
+ROI090_G2	objects=432	clean=375	phenotype_not_assessable=39	aggregate_removed=6	outside_evaluable_area=12	denominator_px=821707
+ROI091_H5	objects=295	clean=214	phenotype_not_assessable=34	aggregate_removed=43	outside_evaluable_area=4	denominator_px=893962
+ROI092_D9	objects=108	clean=96	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=820667
+ROI093_B5	objects=77	clean=70	phenotype_not_assessable=2	aggregate_removed=2	outside_evaluable_area=3	denominator_px=787994
+ROI094_B7	objects=158	clean=132	phenotype_not_assessable=13	aggregate_removed=12	outside_evaluable_area=1	denominator_px=902995
+ROI095_F8	objects=547	clean=350	phenotype_not_assessable=184	aggregate_removed=10	outside_evaluable_area=3	denominator_px=900123
+ROI096_F5	objects=241	clean=190	phenotype_not_assessable=19	aggregate_removed=24	outside_evaluable_area=8	denominator_px=836602
+ROI097_B9	objects=104	clean=89	phenotype_not_assessable=13	aggregate_removed=2	outside_evaluable_area=0	denominator_px=796430
+ROI098_D6	objects=97	clean=90	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=4	denominator_px=830519
+ROI099_F3	objects=166	clean=145	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=13	denominator_px=826440
+ROI100_B2	objects=237	clean=208	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=0	denominator_px=660276
+ROI101_C3	objects=217	clean=206	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=4	denominator_px=914941
+ROI102_F15	objects=776	clean=756	phenotype_not_assessable=7	aggregate_removed=11	outside_evaluable_area=2	denominator_px=875153
+ROI103_I10	objects=205	clean=180	phenotype_not_assessable=11	aggregate_removed=9	outside_evaluable_area=5	denominator_px=371376
+ROI104_I8	objects=80	clean=74	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=0	denominator_px=231201
+ROI105_G6	objects=74	clean=60	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=633881
+ROI106_J1	objects=126	clean=119	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=2	denominator_px=749174
+ROI107_A5	objects=127	clean=106	phenotype_not_assessable=2	aggregate_removed=12	outside_evaluable_area=7	denominator_px=287685
+ROI108_A13	objects=875	clean=750	phenotype_not_assessable=112	aggregate_removed=9	outside_evaluable_area=4	denominator_px=456305
+ROI109_J5	objects=128	clean=82	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=20	denominator_px=860417
+ROI110_A15	objects=1031	clean=893	phenotype_not_assessable=110	aggregate_removed=12	outside_evaluable_area=16	denominator_px=661802
+ROI111_E5	objects=148	clean=119	phenotype_not_assessable=14	aggregate_removed=15	outside_evaluable_area=0	denominator_px=405306
+ROI112_J10	objects=326	clean=294	phenotype_not_assessable=27	aggregate_removed=5	outside_evaluable_area=0	denominator_px=753592
+ROI113_I15	objects=174	clean=146	phenotype_not_assessable=16	aggregate_removed=6	outside_evaluable_area=6	denominator_px=465260
+ROI114_G11	objects=170	clean=113	phenotype_not_assessable=47	aggregate_removed=10	outside_evaluable_area=0	denominator_px=387607
+ROI115_F9	objects=34	clean=19	phenotype_not_assessable=9	aggregate_removed=6	outside_evaluable_area=0	denominator_px=386023
+ROI116_J13	objects=359	clean=314	phenotype_not_assessable=24	aggregate_removed=12	outside_evaluable_area=9	denominator_px=828288
+ROI117_A1	objects=293	clean=266	phenotype_not_assessable=11	aggregate_removed=15	outside_evaluable_area=1	denominator_px=385092
+ROI118_A2	objects=261	clean=251	phenotype_not_assessable=8	aggregate_removed=0	outside_evaluable_area=2	denominator_px=468451
+ROI119_A12	objects=137	clean=103	phenotype_not_assessable=14	aggregate_removed=13	outside_evaluable_area=7	denominator_px=474704
+ROI120_H8	objects=129	clean=68	phenotype_not_assessable=24	aggregate_removed=24	outside_evaluable_area=13	denominator_px=574102
+ROI121_A8	objects=162	clean=121	phenotype_not_assessable=28	aggregate_removed=10	outside_evaluable_area=3	denominator_px=536455
+ROI122_A7	objects=119	clean=105	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=383234
+ROI123_A6	objects=50	clean=36	phenotype_not_assessable=3	aggregate_removed=5	outside_evaluable_area=6	denominator_px=385338
+ROI124_A10	objects=299	clean=231	phenotype_not_assessable=64	aggregate_removed=3	outside_evaluable_area=1	denominator_px=500162
+ROI125_A11	objects=63	clean=51	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=462820
+ROI126_F6	objects=105	clean=67	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=10	denominator_px=853611
+ROI127_E9	objects=129	clean=63	phenotype_not_assessable=39	aggregate_removed=24	outside_evaluable_area=3	denominator_px=805920
+ROI128_A14	objects=446	clean=428	phenotype_not_assessable=6	aggregate_removed=10	outside_evaluable_area=2	denominator_px=519730
+ROI129_A4	objects=529	clean=471	phenotype_not_assessable=54	aggregate_removed=3	outside_evaluable_area=1	denominator_px=398846
+ROI130_A3	objects=27	clean=27	phenotype_not_assessable=0	aggregate_removed=0	outside_evaluable_area=0	denominator_px=356463
+ROI131_A9	objects=12	clean=5	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=4	denominator_px=229853
+ROI132_G15	objects=370	clean=352	phenotype_not_assessable=10	aggregate_removed=3	outside_evaluable_area=5	denominator_px=807099
+ROI133_E6	objects=103	clean=70	phenotype_not_assessable=3	aggregate_removed=21	outside_evaluable_area=9	denominator_px=815394
+ROI134_D4	objects=797	clean=696	phenotype_not_assessable=33	aggregate_removed=39	outside_evaluable_area=29	denominator_px=860440
+ROI135_C2	objects=259	clean=228	phenotype_not_assessable=12	aggregate_removed=12	outside_evaluable_area=7	denominator_px=882317
+ROI136_C6	objects=126	clean=87	phenotype_not_assessable=8	aggregate_removed=24	outside_evaluable_area=7	denominator_px=804466
+ROI137_C8	objects=295	clean=180	phenotype_not_assessable=58	aggregate_removed=38	outside_evaluable_area=19	denominator_px=886316
+
+skipped (no release GeoJSON): none
+ROIs: 136; objects: 79739; {'clean': 72745, 'phenotype_not_assessable': 4149, 'aggregate_removed': 2000, 'outside_evaluable_area': 845}
+denominator identical to the release in every ROI
+included cores (evaluable_for_IMC = yes): 121; objects: 62792; denominator_mm2: 95.00
+  clean=56734 (90.35%); phenotype_not_assessable=3516 (5.60%); aggregate_removed=1880 (2.99%); outside_evaluable_area=662 (1.05%)
+cells table check: 79739 objects in data/cells.csv; unmatched: 0; area differences: 0
+run_finished: 2026-10-13T10:16:21; checks_failed=False
+
+MANUAL REVIEW APPLICATION
+run_started: 2026-10-13T10:38:05
+host: MacBook-Air-di-ICH.local
+python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; shapely: 2.1.2; rasterio: 1.5.2
+release: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/reference/manual_review/20261012_v1
+masks_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/masks
+output_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/manual_review
+manifest: 145 files checked; mismatches: none; unlisted files: none
+rules: scripts/apply_manual_review.py (reviewer's reference implementation, unchanged)
+
+ROI001_E10	objects=1133	clean=989	phenotype_not_assessable=104	aggregate_removed=20	outside_evaluable_area=20	denominator_px=764669
+ROI002_F12	objects=171	clean=136	phenotype_not_assessable=19	aggregate_removed=16	outside_evaluable_area=0	denominator_px=994707
+ROI003_C4	objects=465	clean=444	phenotype_not_assessable=3	aggregate_removed=1	outside_evaluable_area=17	denominator_px=824674
+ROI004_I7	objects=707	clean=660	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=21	denominator_px=734551
+ROI005_J4	objects=717	clean=708	phenotype_not_assessable=7	aggregate_removed=1	outside_evaluable_area=1	denominator_px=812168
+ROI006_B12	objects=449	clean=341	phenotype_not_assessable=59	aggregate_removed=49	outside_evaluable_area=0	denominator_px=947614
+ROI007_K15	objects=1391	clean=1378	phenotype_not_assessable=8	aggregate_removed=4	outside_evaluable_area=1	denominator_px=915637
+ROI008_E12	objects=543	clean=458	phenotype_not_assessable=31	aggregate_removed=53	outside_evaluable_area=1	denominator_px=943705
+ROI009_G3	objects=265	clean=248	phenotype_not_assessable=3	aggregate_removed=6	outside_evaluable_area=8	denominator_px=878907
+ROI010_H9	objects=979	clean=917	phenotype_not_assessable=31	aggregate_removed=17	outside_evaluable_area=14	denominator_px=836640
+ROI011_E14	objects=1145	clean=1045	phenotype_not_assessable=79	aggregate_removed=21	outside_evaluable_area=0	denominator_px=952316
+ROI012_H12	objects=633	clean=569	phenotype_not_assessable=54	aggregate_removed=10	outside_evaluable_area=0	denominator_px=934565
+ROI013_G9	objects=1124	clean=1087	phenotype_not_assessable=20	aggregate_removed=7	outside_evaluable_area=10	denominator_px=797575
+ROI014_C5	objects=1459	clean=1390	phenotype_not_assessable=44	aggregate_removed=4	outside_evaluable_area=21	denominator_px=795215
+ROI015_D2	objects=229	clean=197	phenotype_not_assessable=10	aggregate_removed=14	outside_evaluable_area=8	denominator_px=812412
+ROI016_J12	objects=1429	clean=1387	phenotype_not_assessable=37	aggregate_removed=4	outside_evaluable_area=1	denominator_px=863040
+ROI017_K13	objects=1080	clean=1049	phenotype_not_assessable=17	aggregate_removed=2	outside_evaluable_area=12	denominator_px=880835
+ROI018_B10	objects=846	clean=716	phenotype_not_assessable=114	aggregate_removed=13	outside_evaluable_area=3	denominator_px=780395
+ROI019_I5	objects=235	clean=190	phenotype_not_assessable=15	aggregate_removed=19	outside_evaluable_area=11	denominator_px=843887
+ROI020_G1	objects=1431	clean=1345	phenotype_not_assessable=39	aggregate_removed=46	outside_evaluable_area=1	denominator_px=941138
+ROI022_J9	objects=553	clean=462	phenotype_not_assessable=80	aggregate_removed=4	outside_evaluable_area=7	denominator_px=795606
+ROI023_F13	objects=2797	clean=2659	phenotype_not_assessable=118	aggregate_removed=18	outside_evaluable_area=2	denominator_px=964336
+ROI024_J15	objects=997	clean=979	phenotype_not_assessable=9	aggregate_removed=9	outside_evaluable_area=0	denominator_px=882288
+ROI025_I4	objects=459	clean=436	phenotype_not_assessable=11	aggregate_removed=4	outside_evaluable_area=8	denominator_px=816230
+ROI026_C12	objects=625	clean=501	phenotype_not_assessable=76	aggregate_removed=48	outside_evaluable_area=0	denominator_px=935817
+ROI027_C13	objects=1071	clean=1014	phenotype_not_assessable=26	aggregate_removed=24	outside_evaluable_area=7	denominator_px=923554
+ROI028_C14	objects=3316	clean=3234	phenotype_not_assessable=69	aggregate_removed=5	outside_evaluable_area=8	denominator_px=828960
+ROI029_J2	objects=1732	clean=1627	phenotype_not_assessable=91	aggregate_removed=12	outside_evaluable_area=2	denominator_px=903946
+ROI030_J7	objects=901	clean=873	phenotype_not_assessable=21	aggregate_removed=4	outside_evaluable_area=3	denominator_px=856843
+ROI031_K10	objects=7991	clean=7702	phenotype_not_assessable=183	aggregate_removed=4	outside_evaluable_area=102	denominator_px=793054
+ROI032_I13	objects=615	clean=551	phenotype_not_assessable=34	aggregate_removed=17	outside_evaluable_area=13	denominator_px=821206
+ROI033_G12	objects=621	clean=595	phenotype_not_assessable=14	aggregate_removed=9	outside_evaluable_area=3	denominator_px=884598
+ROI034_G13	objects=725	clean=546	phenotype_not_assessable=63	aggregate_removed=108	outside_evaluable_area=8	denominator_px=941080
+ROI035_C1	objects=1787	clean=1759	phenotype_not_assessable=15	aggregate_removed=2	outside_evaluable_area=11	denominator_px=598470
+ROI036_K6	objects=564	clean=557	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=1	denominator_px=830129
+ROI037_F10	objects=1273	clean=1239	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=5	denominator_px=801882
+ROI038_E15	objects=559	clean=555	phenotype_not_assessable=0	aggregate_removed=1	outside_evaluable_area=3	denominator_px=887802
+ROI039_F14	objects=1630	clean=1543	phenotype_not_assessable=75	aggregate_removed=12	outside_evaluable_area=0	denominator_px=917231
+ROI040_D7	objects=179	clean=144	phenotype_not_assessable=15	aggregate_removed=12	outside_evaluable_area=8	denominator_px=894467
+ROI041_D5	objects=368	clean=335	phenotype_not_assessable=6	aggregate_removed=19	outside_evaluable_area=8	denominator_px=891975
+ROI042_H6	objects=192	clean=173	phenotype_not_assessable=5	aggregate_removed=8	outside_evaluable_area=6	denominator_px=900925
+ROI043_G5	objects=283	clean=210	phenotype_not_assessable=18	aggregate_removed=42	outside_evaluable_area=13	denominator_px=780926
+ROI044_F4	objects=963	clean=826	phenotype_not_assessable=111	aggregate_removed=20	outside_evaluable_area=6	denominator_px=850059
+ROI045_I2	objects=78	clean=74	phenotype_not_assessable=1	aggregate_removed=1	outside_evaluable_area=2	denominator_px=785659
+ROI046_J3	objects=38	clean=32	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=1	denominator_px=948628
+ROI047_K3	objects=45	clean=40	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=2	denominator_px=731545
+ROI048_K9	objects=302	clean=288	phenotype_not_assessable=10	aggregate_removed=0	outside_evaluable_area=4	denominator_px=851182
+ROI049_K12	objects=783	clean=598	phenotype_not_assessable=165	aggregate_removed=18	outside_evaluable_area=2	denominator_px=855410
+ROI050_G8	objects=294	clean=182	phenotype_not_assessable=67	aggregate_removed=41	outside_evaluable_area=4	denominator_px=887921
+ROI051_I11	objects=253	clean=219	phenotype_not_assessable=16	aggregate_removed=16	outside_evaluable_area=2	denominator_px=871712
+ROI052_D8	objects=248	clean=143	phenotype_not_assessable=29	aggregate_removed=67	outside_evaluable_area=9	denominator_px=873899
+ROI053_B8	objects=547	clean=478	phenotype_not_assessable=37	aggregate_removed=28	outside_evaluable_area=4	denominator_px=850355
+ROI054_E4	objects=504	clean=472	phenotype_not_assessable=18	aggregate_removed=14	outside_evaluable_area=0	denominator_px=995788
+ROI055_B4	objects=626	clean=571	phenotype_not_assessable=22	aggregate_removed=31	outside_evaluable_area=2	denominator_px=926701
+ROI056_B13	objects=1285	clean=1206	phenotype_not_assessable=61	aggregate_removed=17	outside_evaluable_area=1	denominator_px=926807
+ROI057_B14	objects=2105	clean=2061	phenotype_not_assessable=35	aggregate_removed=7	outside_evaluable_area=2	denominator_px=888735
+ROI058_B15	objects=322	clean=252	phenotype_not_assessable=14	aggregate_removed=48	outside_evaluable_area=8	denominator_px=889111
+ROI059_J6	objects=66	clean=61	phenotype_not_assessable=1	aggregate_removed=4	outside_evaluable_area=0	denominator_px=897997
+ROI060_C10	objects=427	clean=390	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=6	denominator_px=854612
+ROI061_I9	objects=556	clean=516	phenotype_not_assessable=30	aggregate_removed=5	outside_evaluable_area=5	denominator_px=809148
+ROI062_E7	objects=219	clean=170	phenotype_not_assessable=21	aggregate_removed=26	outside_evaluable_area=2	denominator_px=912920
+ROI063_B6	objects=104	clean=79	phenotype_not_assessable=4	aggregate_removed=18	outside_evaluable_area=3	denominator_px=863108
+ROI064_C9	objects=394	clean=352	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=11	denominator_px=837722
+ROI065_D1	objects=1015	clean=971	phenotype_not_assessable=16	aggregate_removed=17	outside_evaluable_area=11	denominator_px=858197
+ROI066_E13	objects=1195	clean=969	phenotype_not_assessable=122	aggregate_removed=96	outside_evaluable_area=8	denominator_px=931704
+ROI067_G14	objects=1018	clean=949	phenotype_not_assessable=40	aggregate_removed=26	outside_evaluable_area=3	denominator_px=945176
+ROI068_H15	objects=212	clean=200	phenotype_not_assessable=6	aggregate_removed=3	outside_evaluable_area=3	denominator_px=837143
+ROI069_H13	objects=730	clean=607	phenotype_not_assessable=51	aggregate_removed=61	outside_evaluable_area=11	denominator_px=900000
+ROI070_J14	objects=703	clean=677	phenotype_not_assessable=10	aggregate_removed=11	outside_evaluable_area=5	denominator_px=863709
+ROI071_J11	objects=292	clean=267	phenotype_not_assessable=10	aggregate_removed=15	outside_evaluable_area=0	denominator_px=924498
+ROI072_H14	objects=1369	clean=1310	phenotype_not_assessable=39	aggregate_removed=13	outside_evaluable_area=7	denominator_px=956708
+ROI073_I14	objects=603	clean=570	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=5	denominator_px=834717
+ROI074_D14	objects=804	clean=734	phenotype_not_assessable=33	aggregate_removed=29	outside_evaluable_area=8	denominator_px=875540
+ROI075_C15	objects=394	clean=371	phenotype_not_assessable=16	aggregate_removed=2	outside_evaluable_area=5	denominator_px=881490
+ROI076_D15	objects=439	clean=422	phenotype_not_assessable=16	aggregate_removed=0	outside_evaluable_area=1	denominator_px=902528
+ROI077_F7	objects=457	clean=378	phenotype_not_assessable=51	aggregate_removed=22	outside_evaluable_area=6	denominator_px=904795
+ROI078_D12	objects=244	clean=187	phenotype_not_assessable=51	aggregate_removed=5	outside_evaluable_area=1	denominator_px=918275
+ROI079_C7	objects=173	clean=133	phenotype_not_assessable=23	aggregate_removed=14	outside_evaluable_area=3	denominator_px=850376
+ROI080_B3	objects=130	clean=115	phenotype_not_assessable=1	aggregate_removed=0	outside_evaluable_area=14	denominator_px=807464
+ROI081_G10	objects=653	clean=571	phenotype_not_assessable=66	aggregate_removed=11	outside_evaluable_area=5	denominator_px=867903
+ROI082_B11	objects=216	clean=171	phenotype_not_assessable=14	aggregate_removed=24	outside_evaluable_area=7	denominator_px=918428
+ROI083_C11	objects=164	clean=124	phenotype_not_assessable=4	aggregate_removed=25	outside_evaluable_area=11	denominator_px=914942
+ROI084_E11	objects=133	clean=120	phenotype_not_assessable=0	aggregate_removed=8	outside_evaluable_area=5	denominator_px=893642
+ROI085_F11	objects=141	clean=127	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=6	denominator_px=820214
+ROI086_H11	objects=131	clean=116	phenotype_not_assessable=7	aggregate_removed=6	outside_evaluable_area=2	denominator_px=811971
+ROI087_H10	objects=627	clean=576	phenotype_not_assessable=34	aggregate_removed=12	outside_evaluable_area=5	denominator_px=885446
+ROI088_I6	objects=9	clean=5	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=1	denominator_px=871798
+ROI089_I3	objects=36	clean=21	phenotype_not_assessable=5	aggregate_removed=10	outside_evaluable_area=0	denominator_px=894936
+ROI090_G2	objects=432	clean=375	phenotype_not_assessable=39	aggregate_removed=6	outside_evaluable_area=12	denominator_px=821707
+ROI091_H5	objects=295	clean=214	phenotype_not_assessable=34	aggregate_removed=43	outside_evaluable_area=4	denominator_px=893962
+ROI092_D9	objects=108	clean=96	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=820667
+ROI093_B5	objects=77	clean=70	phenotype_not_assessable=2	aggregate_removed=2	outside_evaluable_area=3	denominator_px=787994
+ROI094_B7	objects=158	clean=132	phenotype_not_assessable=13	aggregate_removed=12	outside_evaluable_area=1	denominator_px=902995
+ROI095_F8	objects=547	clean=350	phenotype_not_assessable=184	aggregate_removed=10	outside_evaluable_area=3	denominator_px=900123
+ROI096_F5	objects=241	clean=190	phenotype_not_assessable=19	aggregate_removed=24	outside_evaluable_area=8	denominator_px=836602
+ROI097_B9	objects=104	clean=89	phenotype_not_assessable=13	aggregate_removed=2	outside_evaluable_area=0	denominator_px=796430
+ROI098_D6	objects=97	clean=90	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=4	denominator_px=830519
+ROI099_F3	objects=166	clean=145	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=13	denominator_px=826440
+ROI100_B2	objects=237	clean=208	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=0	denominator_px=660276
+ROI101_C3	objects=217	clean=206	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=4	denominator_px=914941
+ROI102_F15	objects=776	clean=756	phenotype_not_assessable=7	aggregate_removed=11	outside_evaluable_area=2	denominator_px=875153
+ROI103_I10	objects=205	clean=180	phenotype_not_assessable=11	aggregate_removed=9	outside_evaluable_area=5	denominator_px=371376
+ROI104_I8	objects=80	clean=74	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=0	denominator_px=231201
+ROI105_G6	objects=74	clean=60	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=633881
+ROI106_J1	objects=126	clean=119	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=2	denominator_px=749174
+ROI107_A5	objects=127	clean=106	phenotype_not_assessable=2	aggregate_removed=12	outside_evaluable_area=7	denominator_px=287685
+ROI108_A13	objects=875	clean=750	phenotype_not_assessable=112	aggregate_removed=9	outside_evaluable_area=4	denominator_px=456305
+ROI109_J5	objects=128	clean=82	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=20	denominator_px=860417
+ROI110_A15	objects=1031	clean=893	phenotype_not_assessable=110	aggregate_removed=12	outside_evaluable_area=16	denominator_px=661802
+ROI111_E5	objects=148	clean=119	phenotype_not_assessable=14	aggregate_removed=15	outside_evaluable_area=0	denominator_px=405306
+ROI112_J10	objects=326	clean=294	phenotype_not_assessable=27	aggregate_removed=5	outside_evaluable_area=0	denominator_px=753592
+ROI113_I15	objects=174	clean=146	phenotype_not_assessable=16	aggregate_removed=6	outside_evaluable_area=6	denominator_px=465260
+ROI114_G11	objects=170	clean=113	phenotype_not_assessable=47	aggregate_removed=10	outside_evaluable_area=0	denominator_px=387607
+ROI115_F9	objects=34	clean=19	phenotype_not_assessable=9	aggregate_removed=6	outside_evaluable_area=0	denominator_px=386023
+ROI116_J13	objects=359	clean=314	phenotype_not_assessable=24	aggregate_removed=12	outside_evaluable_area=9	denominator_px=828288
+ROI117_A1	objects=293	clean=266	phenotype_not_assessable=11	aggregate_removed=15	outside_evaluable_area=1	denominator_px=385092
+ROI118_A2	objects=261	clean=251	phenotype_not_assessable=8	aggregate_removed=0	outside_evaluable_area=2	denominator_px=468451
+ROI119_A12	objects=137	clean=103	phenotype_not_assessable=14	aggregate_removed=13	outside_evaluable_area=7	denominator_px=474704
+ROI120_H8	objects=129	clean=68	phenotype_not_assessable=24	aggregate_removed=24	outside_evaluable_area=13	denominator_px=574102
+ROI121_A8	objects=162	clean=121	phenotype_not_assessable=28	aggregate_removed=10	outside_evaluable_area=3	denominator_px=536455
+ROI122_A7	objects=119	clean=105	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=383234
+ROI123_A6	objects=50	clean=36	phenotype_not_assessable=3	aggregate_removed=5	outside_evaluable_area=6	denominator_px=385338
+ROI124_A10	objects=299	clean=231	phenotype_not_assessable=64	aggregate_removed=3	outside_evaluable_area=1	denominator_px=500162
+ROI125_A11	objects=63	clean=51	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=462820
+ROI126_F6	objects=105	clean=67	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=10	denominator_px=853611
+ROI127_E9	objects=129	clean=63	phenotype_not_assessable=39	aggregate_removed=24	outside_evaluable_area=3	denominator_px=805920
+ROI128_A14	objects=446	clean=428	phenotype_not_assessable=6	aggregate_removed=10	outside_evaluable_area=2	denominator_px=519730
+ROI129_A4	objects=529	clean=471	phenotype_not_assessable=54	aggregate_removed=3	outside_evaluable_area=1	denominator_px=398846
+ROI130_A3	objects=27	clean=27	phenotype_not_assessable=0	aggregate_removed=0	outside_evaluable_area=0	denominator_px=356463
+ROI131_A9	objects=12	clean=5	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=4	denominator_px=229853
+ROI132_G15	objects=370	clean=352	phenotype_not_assessable=10	aggregate_removed=3	outside_evaluable_area=5	denominator_px=807099
+ROI133_E6	objects=103	clean=70	phenotype_not_assessable=3	aggregate_removed=21	outside_evaluable_area=9	denominator_px=815394
+ROI134_D4	objects=797	clean=696	phenotype_not_assessable=33	aggregate_removed=39	outside_evaluable_area=29	denominator_px=860440
+ROI135_C2	objects=259	clean=228	phenotype_not_assessable=12	aggregate_removed=12	outside_evaluable_area=7	denominator_px=882317
+ROI136_C6	objects=126	clean=87	phenotype_not_assessable=8	aggregate_removed=24	outside_evaluable_area=7	denominator_px=804466
+ROI137_C8	objects=295	clean=180	phenotype_not_assessable=58	aggregate_removed=38	outside_evaluable_area=19	denominator_px=886316
+
+skipped (no release GeoJSON): none
+ROIs: 136; objects: 79739; {'clean': 72745, 'phenotype_not_assessable': 4149, 'aggregate_removed': 2000, 'outside_evaluable_area': 845}
+denominator identical to the release in every ROI
+included cores (evaluable_for_IMC = yes): 121; objects: 62792; denominator_mm2: 95.00
+  clean=56734 (90.35%); phenotype_not_assessable=3516 (5.60%); aggregate_removed=1880 (2.99%); outside_evaluable_area=662 (1.05%)
+cells table check: 79739 objects in data/cells.csv; unmatched: 0; area differences: 0
+run_finished: 2026-10-13T10:38:08; checks_failed=False
+
+MANUAL REVIEW APPLICATION
+run_started: 2026-10-13T10:38:28
+host: MacBook-Air-di-ICH.local
+python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; shapely: 2.1.2; rasterio: 1.5.2
+release: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/reference/manual_review/20261012_v1
+masks_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/masks
+output_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/manual_review
+manifest: 145 files checked; mismatches: none; unlisted files: none
+rules: scripts/apply_manual_review.py (reviewer's reference implementation, unchanged)
+
+ROI001_E10	objects=1133	clean=989	phenotype_not_assessable=104	aggregate_removed=20	outside_evaluable_area=20	denominator_px=764669
+ROI002_F12	objects=171	clean=136	phenotype_not_assessable=19	aggregate_removed=16	outside_evaluable_area=0	denominator_px=994707
+ROI003_C4	objects=465	clean=444	phenotype_not_assessable=3	aggregate_removed=1	outside_evaluable_area=17	denominator_px=824674
+ROI004_I7	objects=707	clean=660	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=21	denominator_px=734551
+ROI005_J4	objects=717	clean=708	phenotype_not_assessable=7	aggregate_removed=1	outside_evaluable_area=1	denominator_px=812168
+ROI006_B12	objects=449	clean=341	phenotype_not_assessable=59	aggregate_removed=49	outside_evaluable_area=0	denominator_px=947614
+ROI007_K15	objects=1391	clean=1378	phenotype_not_assessable=8	aggregate_removed=4	outside_evaluable_area=1	denominator_px=915637
+ROI008_E12	objects=543	clean=458	phenotype_not_assessable=31	aggregate_removed=53	outside_evaluable_area=1	denominator_px=943705
+ROI009_G3	objects=265	clean=248	phenotype_not_assessable=3	aggregate_removed=6	outside_evaluable_area=8	denominator_px=878907
+ROI010_H9	objects=979	clean=917	phenotype_not_assessable=31	aggregate_removed=17	outside_evaluable_area=14	denominator_px=836640
+ROI011_E14	objects=1145	clean=1045	phenotype_not_assessable=79	aggregate_removed=21	outside_evaluable_area=0	denominator_px=952316
+ROI012_H12	objects=633	clean=569	phenotype_not_assessable=54	aggregate_removed=10	outside_evaluable_area=0	denominator_px=934565
+ROI013_G9	objects=1124	clean=1087	phenotype_not_assessable=20	aggregate_removed=7	outside_evaluable_area=10	denominator_px=797575
+ROI014_C5	objects=1459	clean=1390	phenotype_not_assessable=44	aggregate_removed=4	outside_evaluable_area=21	denominator_px=795215
+ROI015_D2	objects=229	clean=197	phenotype_not_assessable=10	aggregate_removed=14	outside_evaluable_area=8	denominator_px=812412
+ROI016_J12	objects=1429	clean=1387	phenotype_not_assessable=37	aggregate_removed=4	outside_evaluable_area=1	denominator_px=863040
+ROI017_K13	objects=1080	clean=1049	phenotype_not_assessable=17	aggregate_removed=2	outside_evaluable_area=12	denominator_px=880835
+ROI018_B10	objects=846	clean=716	phenotype_not_assessable=114	aggregate_removed=13	outside_evaluable_area=3	denominator_px=780395
+ROI019_I5	objects=235	clean=190	phenotype_not_assessable=15	aggregate_removed=19	outside_evaluable_area=11	denominator_px=843887
+ROI020_G1	objects=1431	clean=1345	phenotype_not_assessable=39	aggregate_removed=46	outside_evaluable_area=1	denominator_px=941138
+ROI022_J9	objects=553	clean=462	phenotype_not_assessable=80	aggregate_removed=4	outside_evaluable_area=7	denominator_px=795606
+ROI023_F13	objects=2797	clean=2659	phenotype_not_assessable=118	aggregate_removed=18	outside_evaluable_area=2	denominator_px=964336
+ROI024_J15	objects=997	clean=979	phenotype_not_assessable=9	aggregate_removed=9	outside_evaluable_area=0	denominator_px=882288
+ROI025_I4	objects=459	clean=436	phenotype_not_assessable=11	aggregate_removed=4	outside_evaluable_area=8	denominator_px=816230
+ROI026_C12	objects=625	clean=501	phenotype_not_assessable=76	aggregate_removed=48	outside_evaluable_area=0	denominator_px=935817
+ROI027_C13	objects=1071	clean=1014	phenotype_not_assessable=26	aggregate_removed=24	outside_evaluable_area=7	denominator_px=923554
+ROI028_C14	objects=3316	clean=3234	phenotype_not_assessable=69	aggregate_removed=5	outside_evaluable_area=8	denominator_px=828960
+ROI029_J2	objects=1732	clean=1627	phenotype_not_assessable=91	aggregate_removed=12	outside_evaluable_area=2	denominator_px=903946
+ROI030_J7	objects=901	clean=873	phenotype_not_assessable=21	aggregate_removed=4	outside_evaluable_area=3	denominator_px=856843
+ROI031_K10	objects=7991	clean=7702	phenotype_not_assessable=183	aggregate_removed=4	outside_evaluable_area=102	denominator_px=793054
+ROI032_I13	objects=615	clean=551	phenotype_not_assessable=34	aggregate_removed=17	outside_evaluable_area=13	denominator_px=821206
+ROI033_G12	objects=621	clean=595	phenotype_not_assessable=14	aggregate_removed=9	outside_evaluable_area=3	denominator_px=884598
+ROI034_G13	objects=725	clean=546	phenotype_not_assessable=63	aggregate_removed=108	outside_evaluable_area=8	denominator_px=941080
+ROI035_C1	objects=1787	clean=1759	phenotype_not_assessable=15	aggregate_removed=2	outside_evaluable_area=11	denominator_px=598470
+ROI036_K6	objects=564	clean=557	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=1	denominator_px=830129
+ROI037_F10	objects=1273	clean=1239	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=5	denominator_px=801882
+ROI038_E15	objects=559	clean=555	phenotype_not_assessable=0	aggregate_removed=1	outside_evaluable_area=3	denominator_px=887802
+ROI039_F14	objects=1630	clean=1543	phenotype_not_assessable=75	aggregate_removed=12	outside_evaluable_area=0	denominator_px=917231
+ROI040_D7	objects=179	clean=144	phenotype_not_assessable=15	aggregate_removed=12	outside_evaluable_area=8	denominator_px=894467
+ROI041_D5	objects=368	clean=335	phenotype_not_assessable=6	aggregate_removed=19	outside_evaluable_area=8	denominator_px=891975
+ROI042_H6	objects=192	clean=173	phenotype_not_assessable=5	aggregate_removed=8	outside_evaluable_area=6	denominator_px=900925
+ROI043_G5	objects=283	clean=210	phenotype_not_assessable=18	aggregate_removed=42	outside_evaluable_area=13	denominator_px=780926
+ROI044_F4	objects=963	clean=826	phenotype_not_assessable=111	aggregate_removed=20	outside_evaluable_area=6	denominator_px=850059
+ROI045_I2	objects=78	clean=74	phenotype_not_assessable=1	aggregate_removed=1	outside_evaluable_area=2	denominator_px=785659
+ROI046_J3	objects=38	clean=32	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=1	denominator_px=948628
+ROI047_K3	objects=45	clean=40	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=2	denominator_px=731545
+ROI048_K9	objects=302	clean=288	phenotype_not_assessable=10	aggregate_removed=0	outside_evaluable_area=4	denominator_px=851182
+ROI049_K12	objects=783	clean=598	phenotype_not_assessable=165	aggregate_removed=18	outside_evaluable_area=2	denominator_px=855410
+ROI050_G8	objects=294	clean=182	phenotype_not_assessable=67	aggregate_removed=41	outside_evaluable_area=4	denominator_px=887921
+ROI051_I11	objects=253	clean=219	phenotype_not_assessable=16	aggregate_removed=16	outside_evaluable_area=2	denominator_px=871712
+ROI052_D8	objects=248	clean=143	phenotype_not_assessable=29	aggregate_removed=67	outside_evaluable_area=9	denominator_px=873899
+ROI053_B8	objects=547	clean=478	phenotype_not_assessable=37	aggregate_removed=28	outside_evaluable_area=4	denominator_px=850355
+ROI054_E4	objects=504	clean=472	phenotype_not_assessable=18	aggregate_removed=14	outside_evaluable_area=0	denominator_px=995788
+ROI055_B4	objects=626	clean=571	phenotype_not_assessable=22	aggregate_removed=31	outside_evaluable_area=2	denominator_px=926701
+ROI056_B13	objects=1285	clean=1206	phenotype_not_assessable=61	aggregate_removed=17	outside_evaluable_area=1	denominator_px=926807
+ROI057_B14	objects=2105	clean=2061	phenotype_not_assessable=35	aggregate_removed=7	outside_evaluable_area=2	denominator_px=888735
+ROI058_B15	objects=322	clean=252	phenotype_not_assessable=14	aggregate_removed=48	outside_evaluable_area=8	denominator_px=889111
+ROI059_J6	objects=66	clean=61	phenotype_not_assessable=1	aggregate_removed=4	outside_evaluable_area=0	denominator_px=897997
+ROI060_C10	objects=427	clean=390	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=6	denominator_px=854612
+ROI061_I9	objects=556	clean=516	phenotype_not_assessable=30	aggregate_removed=5	outside_evaluable_area=5	denominator_px=809148
+ROI062_E7	objects=219	clean=170	phenotype_not_assessable=21	aggregate_removed=26	outside_evaluable_area=2	denominator_px=912920
+ROI063_B6	objects=104	clean=79	phenotype_not_assessable=4	aggregate_removed=18	outside_evaluable_area=3	denominator_px=863108
+ROI064_C9	objects=394	clean=352	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=11	denominator_px=837722
+ROI065_D1	objects=1015	clean=971	phenotype_not_assessable=16	aggregate_removed=17	outside_evaluable_area=11	denominator_px=858197
+ROI066_E13	objects=1195	clean=969	phenotype_not_assessable=122	aggregate_removed=96	outside_evaluable_area=8	denominator_px=931704
+ROI067_G14	objects=1018	clean=949	phenotype_not_assessable=40	aggregate_removed=26	outside_evaluable_area=3	denominator_px=945176
+ROI068_H15	objects=212	clean=200	phenotype_not_assessable=6	aggregate_removed=3	outside_evaluable_area=3	denominator_px=837143
+ROI069_H13	objects=730	clean=607	phenotype_not_assessable=51	aggregate_removed=61	outside_evaluable_area=11	denominator_px=900000
+ROI070_J14	objects=703	clean=677	phenotype_not_assessable=10	aggregate_removed=11	outside_evaluable_area=5	denominator_px=863709
+ROI071_J11	objects=292	clean=267	phenotype_not_assessable=10	aggregate_removed=15	outside_evaluable_area=0	denominator_px=924498
+ROI072_H14	objects=1369	clean=1310	phenotype_not_assessable=39	aggregate_removed=13	outside_evaluable_area=7	denominator_px=956708
+ROI073_I14	objects=603	clean=570	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=5	denominator_px=834717
+ROI074_D14	objects=804	clean=734	phenotype_not_assessable=33	aggregate_removed=29	outside_evaluable_area=8	denominator_px=875540
+ROI075_C15	objects=394	clean=371	phenotype_not_assessable=16	aggregate_removed=2	outside_evaluable_area=5	denominator_px=881490
+ROI076_D15	objects=439	clean=422	phenotype_not_assessable=16	aggregate_removed=0	outside_evaluable_area=1	denominator_px=902528
+ROI077_F7	objects=457	clean=378	phenotype_not_assessable=51	aggregate_removed=22	outside_evaluable_area=6	denominator_px=904795
+ROI078_D12	objects=244	clean=187	phenotype_not_assessable=51	aggregate_removed=5	outside_evaluable_area=1	denominator_px=918275
+ROI079_C7	objects=173	clean=133	phenotype_not_assessable=23	aggregate_removed=14	outside_evaluable_area=3	denominator_px=850376
+ROI080_B3	objects=130	clean=115	phenotype_not_assessable=1	aggregate_removed=0	outside_evaluable_area=14	denominator_px=807464
+ROI081_G10	objects=653	clean=571	phenotype_not_assessable=66	aggregate_removed=11	outside_evaluable_area=5	denominator_px=867903
+ROI082_B11	objects=216	clean=171	phenotype_not_assessable=14	aggregate_removed=24	outside_evaluable_area=7	denominator_px=918428
+ROI083_C11	objects=164	clean=124	phenotype_not_assessable=4	aggregate_removed=25	outside_evaluable_area=11	denominator_px=914942
+ROI084_E11	objects=133	clean=120	phenotype_not_assessable=0	aggregate_removed=8	outside_evaluable_area=5	denominator_px=893642
+ROI085_F11	objects=141	clean=127	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=6	denominator_px=820214
+ROI086_H11	objects=131	clean=116	phenotype_not_assessable=7	aggregate_removed=6	outside_evaluable_area=2	denominator_px=811971
+ROI087_H10	objects=627	clean=576	phenotype_not_assessable=34	aggregate_removed=12	outside_evaluable_area=5	denominator_px=885446
+ROI088_I6	objects=9	clean=5	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=1	denominator_px=871798
+ROI089_I3	objects=36	clean=21	phenotype_not_assessable=5	aggregate_removed=10	outside_evaluable_area=0	denominator_px=894936
+ROI090_G2	objects=432	clean=375	phenotype_not_assessable=39	aggregate_removed=6	outside_evaluable_area=12	denominator_px=821707
+ROI091_H5	objects=295	clean=214	phenotype_not_assessable=34	aggregate_removed=43	outside_evaluable_area=4	denominator_px=893962
+ROI092_D9	objects=108	clean=96	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=820667
+ROI093_B5	objects=77	clean=70	phenotype_not_assessable=2	aggregate_removed=2	outside_evaluable_area=3	denominator_px=787994
+ROI094_B7	objects=158	clean=132	phenotype_not_assessable=13	aggregate_removed=12	outside_evaluable_area=1	denominator_px=902995
+ROI095_F8	objects=547	clean=350	phenotype_not_assessable=184	aggregate_removed=10	outside_evaluable_area=3	denominator_px=900123
+ROI096_F5	objects=241	clean=190	phenotype_not_assessable=19	aggregate_removed=24	outside_evaluable_area=8	denominator_px=836602
+ROI097_B9	objects=104	clean=89	phenotype_not_assessable=13	aggregate_removed=2	outside_evaluable_area=0	denominator_px=796430
+ROI098_D6	objects=97	clean=90	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=4	denominator_px=830519
+ROI099_F3	objects=166	clean=145	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=13	denominator_px=826440
+ROI100_B2	objects=237	clean=208	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=0	denominator_px=660276
+ROI101_C3	objects=217	clean=206	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=4	denominator_px=914941
+ROI102_F15	objects=776	clean=756	phenotype_not_assessable=7	aggregate_removed=11	outside_evaluable_area=2	denominator_px=875153
+ROI103_I10	objects=205	clean=180	phenotype_not_assessable=11	aggregate_removed=9	outside_evaluable_area=5	denominator_px=371376
+ROI104_I8	objects=80	clean=74	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=0	denominator_px=231201
+ROI105_G6	objects=74	clean=60	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=633881
+ROI106_J1	objects=126	clean=119	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=2	denominator_px=749174
+ROI107_A5	objects=127	clean=106	phenotype_not_assessable=2	aggregate_removed=12	outside_evaluable_area=7	denominator_px=287685
+ROI108_A13	objects=875	clean=750	phenotype_not_assessable=112	aggregate_removed=9	outside_evaluable_area=4	denominator_px=456305
+ROI109_J5	objects=128	clean=82	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=20	denominator_px=860417
+ROI110_A15	objects=1031	clean=893	phenotype_not_assessable=110	aggregate_removed=12	outside_evaluable_area=16	denominator_px=661802
+ROI111_E5	objects=148	clean=119	phenotype_not_assessable=14	aggregate_removed=15	outside_evaluable_area=0	denominator_px=405306
+ROI112_J10	objects=326	clean=294	phenotype_not_assessable=27	aggregate_removed=5	outside_evaluable_area=0	denominator_px=753592
+ROI113_I15	objects=174	clean=146	phenotype_not_assessable=16	aggregate_removed=6	outside_evaluable_area=6	denominator_px=465260
+ROI114_G11	objects=170	clean=113	phenotype_not_assessable=47	aggregate_removed=10	outside_evaluable_area=0	denominator_px=387607
+ROI115_F9	objects=34	clean=19	phenotype_not_assessable=9	aggregate_removed=6	outside_evaluable_area=0	denominator_px=386023
+ROI116_J13	objects=359	clean=314	phenotype_not_assessable=24	aggregate_removed=12	outside_evaluable_area=9	denominator_px=828288
+ROI117_A1	objects=293	clean=266	phenotype_not_assessable=11	aggregate_removed=15	outside_evaluable_area=1	denominator_px=385092
+ROI118_A2	objects=261	clean=251	phenotype_not_assessable=8	aggregate_removed=0	outside_evaluable_area=2	denominator_px=468451
+ROI119_A12	objects=137	clean=103	phenotype_not_assessable=14	aggregate_removed=13	outside_evaluable_area=7	denominator_px=474704
+ROI120_H8	objects=129	clean=68	phenotype_not_assessable=24	aggregate_removed=24	outside_evaluable_area=13	denominator_px=574102
+ROI121_A8	objects=162	clean=121	phenotype_not_assessable=28	aggregate_removed=10	outside_evaluable_area=3	denominator_px=536455
+ROI122_A7	objects=119	clean=105	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=383234
+ROI123_A6	objects=50	clean=36	phenotype_not_assessable=3	aggregate_removed=5	outside_evaluable_area=6	denominator_px=385338
+ROI124_A10	objects=299	clean=231	phenotype_not_assessable=64	aggregate_removed=3	outside_evaluable_area=1	denominator_px=500162
+ROI125_A11	objects=63	clean=51	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=462820
+ROI126_F6	objects=105	clean=67	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=10	denominator_px=853611
+ROI127_E9	objects=129	clean=63	phenotype_not_assessable=39	aggregate_removed=24	outside_evaluable_area=3	denominator_px=805920
+ROI128_A14	objects=446	clean=428	phenotype_not_assessable=6	aggregate_removed=10	outside_evaluable_area=2	denominator_px=519730
+ROI129_A4	objects=529	clean=471	phenotype_not_assessable=54	aggregate_removed=3	outside_evaluable_area=1	denominator_px=398846
+ROI130_A3	objects=27	clean=27	phenotype_not_assessable=0	aggregate_removed=0	outside_evaluable_area=0	denominator_px=356463
+ROI131_A9	objects=12	clean=5	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=4	denominator_px=229853
+ROI132_G15	objects=370	clean=352	phenotype_not_assessable=10	aggregate_removed=3	outside_evaluable_area=5	denominator_px=807099
+ROI133_E6	objects=103	clean=70	phenotype_not_assessable=3	aggregate_removed=21	outside_evaluable_area=9	denominator_px=815394
+ROI134_D4	objects=797	clean=696	phenotype_not_assessable=33	aggregate_removed=39	outside_evaluable_area=29	denominator_px=860440
+ROI135_C2	objects=259	clean=228	phenotype_not_assessable=12	aggregate_removed=12	outside_evaluable_area=7	denominator_px=882317
+ROI136_C6	objects=126	clean=87	phenotype_not_assessable=8	aggregate_removed=24	outside_evaluable_area=7	denominator_px=804466
+ROI137_C8	objects=295	clean=180	phenotype_not_assessable=58	aggregate_removed=38	outside_evaluable_area=19	denominator_px=886316
+
+skipped (no release GeoJSON): none
+ROIs: 136; objects: 79739; {'clean': 72745, 'phenotype_not_assessable': 4149, 'aggregate_removed': 2000, 'outside_evaluable_area': 845}
+denominator identical to the release in every ROI
+included cores (evaluable_for_IMC = yes): 121; objects: 62792; denominator_mm2: 95.00
+  clean=56734 (90.35%); phenotype_not_assessable=3516 (5.60%); aggregate_removed=1880 (2.99%); outside_evaluable_area=662 (1.05%)
+cells table check: 79739 objects in data/cells.csv; unmatched: 0; area differences: 0
+run_finished: 2026-10-13T10:38:32; checks_failed=False
+
+MANUAL REVIEW APPLICATION
+run_started: 2026-10-13T11:06:31
+host: MacBook-Air-di-ICH.local
+python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; shapely: 2.1.2; rasterio: 1.5.2
+release: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/reference/manual_review/20261012_v1
+masks_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/masks
+output_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/manual_review
+manifest: 145 files checked; mismatches: none; unlisted files: none
+rules: scripts/apply_manual_review.py (reviewer's reference implementation, unchanged)
+
+ROI001_E10	objects=1133	clean=989	phenotype_not_assessable=104	aggregate_removed=20	outside_evaluable_area=20	denominator_px=764669
+ROI002_F12	objects=171	clean=136	phenotype_not_assessable=19	aggregate_removed=16	outside_evaluable_area=0	denominator_px=994707
+ROI003_C4	objects=465	clean=444	phenotype_not_assessable=3	aggregate_removed=1	outside_evaluable_area=17	denominator_px=824674
+ROI004_I7	objects=707	clean=660	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=21	denominator_px=734551
+ROI005_J4	objects=717	clean=708	phenotype_not_assessable=7	aggregate_removed=1	outside_evaluable_area=1	denominator_px=812168
+ROI006_B12	objects=449	clean=341	phenotype_not_assessable=59	aggregate_removed=49	outside_evaluable_area=0	denominator_px=947614
+ROI007_K15	objects=1391	clean=1378	phenotype_not_assessable=8	aggregate_removed=4	outside_evaluable_area=1	denominator_px=915637
+ROI008_E12	objects=543	clean=458	phenotype_not_assessable=31	aggregate_removed=53	outside_evaluable_area=1	denominator_px=943705
+ROI009_G3	objects=265	clean=248	phenotype_not_assessable=3	aggregate_removed=6	outside_evaluable_area=8	denominator_px=878907
+ROI010_H9	objects=979	clean=917	phenotype_not_assessable=31	aggregate_removed=17	outside_evaluable_area=14	denominator_px=836640
+ROI011_E14	objects=1145	clean=1045	phenotype_not_assessable=79	aggregate_removed=21	outside_evaluable_area=0	denominator_px=952316
+ROI012_H12	objects=633	clean=569	phenotype_not_assessable=54	aggregate_removed=10	outside_evaluable_area=0	denominator_px=934565
+ROI013_G9	objects=1124	clean=1087	phenotype_not_assessable=20	aggregate_removed=7	outside_evaluable_area=10	denominator_px=797575
+ROI014_C5	objects=1459	clean=1390	phenotype_not_assessable=44	aggregate_removed=4	outside_evaluable_area=21	denominator_px=795215
+ROI015_D2	objects=229	clean=197	phenotype_not_assessable=10	aggregate_removed=14	outside_evaluable_area=8	denominator_px=812412
+ROI016_J12	objects=1429	clean=1387	phenotype_not_assessable=37	aggregate_removed=4	outside_evaluable_area=1	denominator_px=863040
+ROI017_K13	objects=1080	clean=1049	phenotype_not_assessable=17	aggregate_removed=2	outside_evaluable_area=12	denominator_px=880835
+ROI018_B10	objects=846	clean=716	phenotype_not_assessable=114	aggregate_removed=13	outside_evaluable_area=3	denominator_px=780395
+ROI019_I5	objects=235	clean=190	phenotype_not_assessable=15	aggregate_removed=19	outside_evaluable_area=11	denominator_px=843887
+ROI020_G1	objects=1431	clean=1345	phenotype_not_assessable=39	aggregate_removed=46	outside_evaluable_area=1	denominator_px=941138
+ROI022_J9	objects=553	clean=462	phenotype_not_assessable=80	aggregate_removed=4	outside_evaluable_area=7	denominator_px=795606
+ROI023_F13	objects=2797	clean=2659	phenotype_not_assessable=118	aggregate_removed=18	outside_evaluable_area=2	denominator_px=964336
+ROI024_J15	objects=997	clean=979	phenotype_not_assessable=9	aggregate_removed=9	outside_evaluable_area=0	denominator_px=882288
+ROI025_I4	objects=459	clean=436	phenotype_not_assessable=11	aggregate_removed=4	outside_evaluable_area=8	denominator_px=816230
+ROI026_C12	objects=625	clean=501	phenotype_not_assessable=76	aggregate_removed=48	outside_evaluable_area=0	denominator_px=935817
+ROI027_C13	objects=1071	clean=1014	phenotype_not_assessable=26	aggregate_removed=24	outside_evaluable_area=7	denominator_px=923554
+ROI028_C14	objects=3316	clean=3234	phenotype_not_assessable=69	aggregate_removed=5	outside_evaluable_area=8	denominator_px=828960
+ROI029_J2	objects=1732	clean=1627	phenotype_not_assessable=91	aggregate_removed=12	outside_evaluable_area=2	denominator_px=903946
+ROI030_J7	objects=901	clean=873	phenotype_not_assessable=21	aggregate_removed=4	outside_evaluable_area=3	denominator_px=856843
+ROI031_K10	objects=7991	clean=7702	phenotype_not_assessable=183	aggregate_removed=4	outside_evaluable_area=102	denominator_px=793054
+ROI032_I13	objects=615	clean=551	phenotype_not_assessable=34	aggregate_removed=17	outside_evaluable_area=13	denominator_px=821206
+ROI033_G12	objects=621	clean=595	phenotype_not_assessable=14	aggregate_removed=9	outside_evaluable_area=3	denominator_px=884598
+ROI034_G13	objects=725	clean=546	phenotype_not_assessable=63	aggregate_removed=108	outside_evaluable_area=8	denominator_px=941080
+ROI035_C1	objects=1787	clean=1759	phenotype_not_assessable=15	aggregate_removed=2	outside_evaluable_area=11	denominator_px=598470
+ROI036_K6	objects=564	clean=557	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=1	denominator_px=830129
+ROI037_F10	objects=1273	clean=1239	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=5	denominator_px=801882
+ROI038_E15	objects=559	clean=555	phenotype_not_assessable=0	aggregate_removed=1	outside_evaluable_area=3	denominator_px=887802
+ROI039_F14	objects=1630	clean=1543	phenotype_not_assessable=75	aggregate_removed=12	outside_evaluable_area=0	denominator_px=917231
+ROI040_D7	objects=179	clean=144	phenotype_not_assessable=15	aggregate_removed=12	outside_evaluable_area=8	denominator_px=894467
+ROI041_D5	objects=368	clean=335	phenotype_not_assessable=6	aggregate_removed=19	outside_evaluable_area=8	denominator_px=891975
+ROI042_H6	objects=192	clean=173	phenotype_not_assessable=5	aggregate_removed=8	outside_evaluable_area=6	denominator_px=900925
+ROI043_G5	objects=283	clean=210	phenotype_not_assessable=18	aggregate_removed=42	outside_evaluable_area=13	denominator_px=780926
+ROI044_F4	objects=963	clean=826	phenotype_not_assessable=111	aggregate_removed=20	outside_evaluable_area=6	denominator_px=850059
+ROI045_I2	objects=78	clean=74	phenotype_not_assessable=1	aggregate_removed=1	outside_evaluable_area=2	denominator_px=785659
+ROI046_J3	objects=38	clean=32	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=1	denominator_px=948628
+ROI047_K3	objects=45	clean=40	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=2	denominator_px=731545
+ROI048_K9	objects=302	clean=288	phenotype_not_assessable=10	aggregate_removed=0	outside_evaluable_area=4	denominator_px=851182
+ROI049_K12	objects=783	clean=598	phenotype_not_assessable=165	aggregate_removed=18	outside_evaluable_area=2	denominator_px=855410
+ROI050_G8	objects=294	clean=182	phenotype_not_assessable=67	aggregate_removed=41	outside_evaluable_area=4	denominator_px=887921
+ROI051_I11	objects=253	clean=219	phenotype_not_assessable=16	aggregate_removed=16	outside_evaluable_area=2	denominator_px=871712
+ROI052_D8	objects=248	clean=143	phenotype_not_assessable=29	aggregate_removed=67	outside_evaluable_area=9	denominator_px=873899
+ROI053_B8	objects=547	clean=478	phenotype_not_assessable=37	aggregate_removed=28	outside_evaluable_area=4	denominator_px=850355
+ROI054_E4	objects=504	clean=472	phenotype_not_assessable=18	aggregate_removed=14	outside_evaluable_area=0	denominator_px=995788
+ROI055_B4	objects=626	clean=571	phenotype_not_assessable=22	aggregate_removed=31	outside_evaluable_area=2	denominator_px=926701
+ROI056_B13	objects=1285	clean=1206	phenotype_not_assessable=61	aggregate_removed=17	outside_evaluable_area=1	denominator_px=926807
+ROI057_B14	objects=2105	clean=2061	phenotype_not_assessable=35	aggregate_removed=7	outside_evaluable_area=2	denominator_px=888735
+ROI058_B15	objects=322	clean=252	phenotype_not_assessable=14	aggregate_removed=48	outside_evaluable_area=8	denominator_px=889111
+ROI059_J6	objects=66	clean=61	phenotype_not_assessable=1	aggregate_removed=4	outside_evaluable_area=0	denominator_px=897997
+ROI060_C10	objects=427	clean=390	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=6	denominator_px=854612
+ROI061_I9	objects=556	clean=516	phenotype_not_assessable=30	aggregate_removed=5	outside_evaluable_area=5	denominator_px=809148
+ROI062_E7	objects=219	clean=170	phenotype_not_assessable=21	aggregate_removed=26	outside_evaluable_area=2	denominator_px=912920
+ROI063_B6	objects=104	clean=79	phenotype_not_assessable=4	aggregate_removed=18	outside_evaluable_area=3	denominator_px=863108
+ROI064_C9	objects=394	clean=352	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=11	denominator_px=837722
+ROI065_D1	objects=1015	clean=971	phenotype_not_assessable=16	aggregate_removed=17	outside_evaluable_area=11	denominator_px=858197
+ROI066_E13	objects=1195	clean=969	phenotype_not_assessable=122	aggregate_removed=96	outside_evaluable_area=8	denominator_px=931704
+ROI067_G14	objects=1018	clean=949	phenotype_not_assessable=40	aggregate_removed=26	outside_evaluable_area=3	denominator_px=945176
+ROI068_H15	objects=212	clean=200	phenotype_not_assessable=6	aggregate_removed=3	outside_evaluable_area=3	denominator_px=837143
+ROI069_H13	objects=730	clean=607	phenotype_not_assessable=51	aggregate_removed=61	outside_evaluable_area=11	denominator_px=900000
+ROI070_J14	objects=703	clean=677	phenotype_not_assessable=10	aggregate_removed=11	outside_evaluable_area=5	denominator_px=863709
+ROI071_J11	objects=292	clean=267	phenotype_not_assessable=10	aggregate_removed=15	outside_evaluable_area=0	denominator_px=924498
+ROI072_H14	objects=1369	clean=1310	phenotype_not_assessable=39	aggregate_removed=13	outside_evaluable_area=7	denominator_px=956708
+ROI073_I14	objects=603	clean=570	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=5	denominator_px=834717
+ROI074_D14	objects=804	clean=734	phenotype_not_assessable=33	aggregate_removed=29	outside_evaluable_area=8	denominator_px=875540
+ROI075_C15	objects=394	clean=371	phenotype_not_assessable=16	aggregate_removed=2	outside_evaluable_area=5	denominator_px=881490
+ROI076_D15	objects=439	clean=422	phenotype_not_assessable=16	aggregate_removed=0	outside_evaluable_area=1	denominator_px=902528
+ROI077_F7	objects=457	clean=378	phenotype_not_assessable=51	aggregate_removed=22	outside_evaluable_area=6	denominator_px=904795
+ROI078_D12	objects=244	clean=187	phenotype_not_assessable=51	aggregate_removed=5	outside_evaluable_area=1	denominator_px=918275
+ROI079_C7	objects=173	clean=133	phenotype_not_assessable=23	aggregate_removed=14	outside_evaluable_area=3	denominator_px=850376
+ROI080_B3	objects=130	clean=115	phenotype_not_assessable=1	aggregate_removed=0	outside_evaluable_area=14	denominator_px=807464
+ROI081_G10	objects=653	clean=571	phenotype_not_assessable=66	aggregate_removed=11	outside_evaluable_area=5	denominator_px=867903
+ROI082_B11	objects=216	clean=171	phenotype_not_assessable=14	aggregate_removed=24	outside_evaluable_area=7	denominator_px=918428
+ROI083_C11	objects=164	clean=124	phenotype_not_assessable=4	aggregate_removed=25	outside_evaluable_area=11	denominator_px=914942
+ROI084_E11	objects=133	clean=120	phenotype_not_assessable=0	aggregate_removed=8	outside_evaluable_area=5	denominator_px=893642
+ROI085_F11	objects=141	clean=127	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=6	denominator_px=820214
+ROI086_H11	objects=131	clean=116	phenotype_not_assessable=7	aggregate_removed=6	outside_evaluable_area=2	denominator_px=811971
+ROI087_H10	objects=627	clean=576	phenotype_not_assessable=34	aggregate_removed=12	outside_evaluable_area=5	denominator_px=885446
+ROI088_I6	objects=9	clean=5	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=1	denominator_px=871798
+ROI089_I3	objects=36	clean=21	phenotype_not_assessable=5	aggregate_removed=10	outside_evaluable_area=0	denominator_px=894936
+ROI090_G2	objects=432	clean=375	phenotype_not_assessable=39	aggregate_removed=6	outside_evaluable_area=12	denominator_px=821707
+ROI091_H5	objects=295	clean=214	phenotype_not_assessable=34	aggregate_removed=43	outside_evaluable_area=4	denominator_px=893962
+ROI092_D9	objects=108	clean=96	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=820667
+ROI093_B5	objects=77	clean=70	phenotype_not_assessable=2	aggregate_removed=2	outside_evaluable_area=3	denominator_px=787994
+ROI094_B7	objects=158	clean=132	phenotype_not_assessable=13	aggregate_removed=12	outside_evaluable_area=1	denominator_px=902995
+ROI095_F8	objects=547	clean=350	phenotype_not_assessable=184	aggregate_removed=10	outside_evaluable_area=3	denominator_px=900123
+ROI096_F5	objects=241	clean=190	phenotype_not_assessable=19	aggregate_removed=24	outside_evaluable_area=8	denominator_px=836602
+ROI097_B9	objects=104	clean=89	phenotype_not_assessable=13	aggregate_removed=2	outside_evaluable_area=0	denominator_px=796430
+ROI098_D6	objects=97	clean=90	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=4	denominator_px=830519
+ROI099_F3	objects=166	clean=145	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=13	denominator_px=826440
+ROI100_B2	objects=237	clean=208	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=0	denominator_px=660276
+ROI101_C3	objects=217	clean=206	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=4	denominator_px=914941
+ROI102_F15	objects=776	clean=756	phenotype_not_assessable=7	aggregate_removed=11	outside_evaluable_area=2	denominator_px=875153
+ROI103_I10	objects=205	clean=180	phenotype_not_assessable=11	aggregate_removed=9	outside_evaluable_area=5	denominator_px=371376
+ROI104_I8	objects=80	clean=74	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=0	denominator_px=231201
+ROI105_G6	objects=74	clean=60	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=633881
+ROI106_J1	objects=126	clean=119	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=2	denominator_px=749174
+ROI107_A5	objects=127	clean=106	phenotype_not_assessable=2	aggregate_removed=12	outside_evaluable_area=7	denominator_px=287685
+ROI108_A13	objects=875	clean=750	phenotype_not_assessable=112	aggregate_removed=9	outside_evaluable_area=4	denominator_px=456305
+ROI109_J5	objects=128	clean=82	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=20	denominator_px=860417
+ROI110_A15	objects=1031	clean=893	phenotype_not_assessable=110	aggregate_removed=12	outside_evaluable_area=16	denominator_px=661802
+ROI111_E5	objects=148	clean=119	phenotype_not_assessable=14	aggregate_removed=15	outside_evaluable_area=0	denominator_px=405306
+ROI112_J10	objects=326	clean=294	phenotype_not_assessable=27	aggregate_removed=5	outside_evaluable_area=0	denominator_px=753592
+ROI113_I15	objects=174	clean=146	phenotype_not_assessable=16	aggregate_removed=6	outside_evaluable_area=6	denominator_px=465260
+ROI114_G11	objects=170	clean=113	phenotype_not_assessable=47	aggregate_removed=10	outside_evaluable_area=0	denominator_px=387607
+ROI115_F9	objects=34	clean=19	phenotype_not_assessable=9	aggregate_removed=6	outside_evaluable_area=0	denominator_px=386023
+ROI116_J13	objects=359	clean=314	phenotype_not_assessable=24	aggregate_removed=12	outside_evaluable_area=9	denominator_px=828288
+ROI117_A1	objects=293	clean=266	phenotype_not_assessable=11	aggregate_removed=15	outside_evaluable_area=1	denominator_px=385092
+ROI118_A2	objects=261	clean=251	phenotype_not_assessable=8	aggregate_removed=0	outside_evaluable_area=2	denominator_px=468451
+ROI119_A12	objects=137	clean=103	phenotype_not_assessable=14	aggregate_removed=13	outside_evaluable_area=7	denominator_px=474704
+ROI120_H8	objects=129	clean=68	phenotype_not_assessable=24	aggregate_removed=24	outside_evaluable_area=13	denominator_px=574102
+ROI121_A8	objects=162	clean=121	phenotype_not_assessable=28	aggregate_removed=10	outside_evaluable_area=3	denominator_px=536455
+ROI122_A7	objects=119	clean=105	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=383234
+ROI123_A6	objects=50	clean=36	phenotype_not_assessable=3	aggregate_removed=5	outside_evaluable_area=6	denominator_px=385338
+ROI124_A10	objects=299	clean=231	phenotype_not_assessable=64	aggregate_removed=3	outside_evaluable_area=1	denominator_px=500162
+ROI125_A11	objects=63	clean=51	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=462820
+ROI126_F6	objects=105	clean=67	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=10	denominator_px=853611
+ROI127_E9	objects=129	clean=63	phenotype_not_assessable=39	aggregate_removed=24	outside_evaluable_area=3	denominator_px=805920
+ROI128_A14	objects=446	clean=428	phenotype_not_assessable=6	aggregate_removed=10	outside_evaluable_area=2	denominator_px=519730
+ROI129_A4	objects=529	clean=471	phenotype_not_assessable=54	aggregate_removed=3	outside_evaluable_area=1	denominator_px=398846
+ROI130_A3	objects=27	clean=27	phenotype_not_assessable=0	aggregate_removed=0	outside_evaluable_area=0	denominator_px=356463
+ROI131_A9	objects=12	clean=5	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=4	denominator_px=229853
+ROI132_G15	objects=370	clean=352	phenotype_not_assessable=10	aggregate_removed=3	outside_evaluable_area=5	denominator_px=807099
+ROI133_E6	objects=103	clean=70	phenotype_not_assessable=3	aggregate_removed=21	outside_evaluable_area=9	denominator_px=815394
+ROI134_D4	objects=797	clean=696	phenotype_not_assessable=33	aggregate_removed=39	outside_evaluable_area=29	denominator_px=860440
+ROI135_C2	objects=259	clean=228	phenotype_not_assessable=12	aggregate_removed=12	outside_evaluable_area=7	denominator_px=882317
+ROI136_C6	objects=126	clean=87	phenotype_not_assessable=8	aggregate_removed=24	outside_evaluable_area=7	denominator_px=804466
+ROI137_C8	objects=295	clean=180	phenotype_not_assessable=58	aggregate_removed=38	outside_evaluable_area=19	denominator_px=886316
+
+skipped (no release GeoJSON): none
+ROIs: 136; objects: 79739; {'clean': 72745, 'phenotype_not_assessable': 4149, 'aggregate_removed': 2000, 'outside_evaluable_area': 845}
+denominator identical to the release in every ROI
+included cores (evaluable_for_IMC = yes): 121; objects: 62792; denominator_mm2: 95.00
+  clean=56734 (90.35%); phenotype_not_assessable=3516 (5.60%); aggregate_removed=1880 (2.99%); outside_evaluable_area=662 (1.05%)
+cells table check: 79739 objects in data/cells.csv; unmatched: 0; area differences: 0
+run_finished: 2026-10-13T11:06:35; checks_failed=False
+
+MANUAL REVIEW APPLICATION
+run_started: 2026-10-13T11:12:50
+host: MacBook-Air-di-ICH.local
+python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; shapely: 2.1.2; rasterio: 1.5.2
+release: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/reference/manual_review/20261012_v1
+masks_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/masks
+output_dir: /Users/rashid/1_IMC_Analysis/11_Vincenzo/261007_imcAnalysis_cellpose_Refined/data/manual_review
+manifest: 145 files checked; mismatches: none; unlisted files: none
+rules: scripts/apply_manual_review.py (reviewer's reference implementation, unchanged)
+
+ROI001_E10	objects=1133	clean=989	phenotype_not_assessable=104	aggregate_removed=20	outside_evaluable_area=20	denominator_px=764669
+ROI002_F12	objects=171	clean=136	phenotype_not_assessable=19	aggregate_removed=16	outside_evaluable_area=0	denominator_px=994707
+ROI003_C4	objects=465	clean=444	phenotype_not_assessable=3	aggregate_removed=1	outside_evaluable_area=17	denominator_px=824674
+ROI004_I7	objects=707	clean=660	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=21	denominator_px=734551
+ROI005_J4	objects=717	clean=708	phenotype_not_assessable=7	aggregate_removed=1	outside_evaluable_area=1	denominator_px=812168
+ROI006_B12	objects=449	clean=341	phenotype_not_assessable=59	aggregate_removed=49	outside_evaluable_area=0	denominator_px=947614
+ROI007_K15	objects=1391	clean=1378	phenotype_not_assessable=8	aggregate_removed=4	outside_evaluable_area=1	denominator_px=915637
+ROI008_E12	objects=543	clean=458	phenotype_not_assessable=31	aggregate_removed=53	outside_evaluable_area=1	denominator_px=943705
+ROI009_G3	objects=265	clean=248	phenotype_not_assessable=3	aggregate_removed=6	outside_evaluable_area=8	denominator_px=878907
+ROI010_H9	objects=979	clean=917	phenotype_not_assessable=31	aggregate_removed=17	outside_evaluable_area=14	denominator_px=836640
+ROI011_E14	objects=1145	clean=1045	phenotype_not_assessable=79	aggregate_removed=21	outside_evaluable_area=0	denominator_px=952316
+ROI012_H12	objects=633	clean=569	phenotype_not_assessable=54	aggregate_removed=10	outside_evaluable_area=0	denominator_px=934565
+ROI013_G9	objects=1124	clean=1087	phenotype_not_assessable=20	aggregate_removed=7	outside_evaluable_area=10	denominator_px=797575
+ROI014_C5	objects=1459	clean=1390	phenotype_not_assessable=44	aggregate_removed=4	outside_evaluable_area=21	denominator_px=795215
+ROI015_D2	objects=229	clean=197	phenotype_not_assessable=10	aggregate_removed=14	outside_evaluable_area=8	denominator_px=812412
+ROI016_J12	objects=1429	clean=1387	phenotype_not_assessable=37	aggregate_removed=4	outside_evaluable_area=1	denominator_px=863040
+ROI017_K13	objects=1080	clean=1049	phenotype_not_assessable=17	aggregate_removed=2	outside_evaluable_area=12	denominator_px=880835
+ROI018_B10	objects=846	clean=716	phenotype_not_assessable=114	aggregate_removed=13	outside_evaluable_area=3	denominator_px=780395
+ROI019_I5	objects=235	clean=190	phenotype_not_assessable=15	aggregate_removed=19	outside_evaluable_area=11	denominator_px=843887
+ROI020_G1	objects=1431	clean=1345	phenotype_not_assessable=39	aggregate_removed=46	outside_evaluable_area=1	denominator_px=941138
+ROI022_J9	objects=553	clean=462	phenotype_not_assessable=80	aggregate_removed=4	outside_evaluable_area=7	denominator_px=795606
+ROI023_F13	objects=2797	clean=2659	phenotype_not_assessable=118	aggregate_removed=18	outside_evaluable_area=2	denominator_px=964336
+ROI024_J15	objects=997	clean=979	phenotype_not_assessable=9	aggregate_removed=9	outside_evaluable_area=0	denominator_px=882288
+ROI025_I4	objects=459	clean=436	phenotype_not_assessable=11	aggregate_removed=4	outside_evaluable_area=8	denominator_px=816230
+ROI026_C12	objects=625	clean=501	phenotype_not_assessable=76	aggregate_removed=48	outside_evaluable_area=0	denominator_px=935817
+ROI027_C13	objects=1071	clean=1014	phenotype_not_assessable=26	aggregate_removed=24	outside_evaluable_area=7	denominator_px=923554
+ROI028_C14	objects=3316	clean=3234	phenotype_not_assessable=69	aggregate_removed=5	outside_evaluable_area=8	denominator_px=828960
+ROI029_J2	objects=1732	clean=1627	phenotype_not_assessable=91	aggregate_removed=12	outside_evaluable_area=2	denominator_px=903946
+ROI030_J7	objects=901	clean=873	phenotype_not_assessable=21	aggregate_removed=4	outside_evaluable_area=3	denominator_px=856843
+ROI031_K10	objects=7991	clean=7702	phenotype_not_assessable=183	aggregate_removed=4	outside_evaluable_area=102	denominator_px=793054
+ROI032_I13	objects=615	clean=551	phenotype_not_assessable=34	aggregate_removed=17	outside_evaluable_area=13	denominator_px=821206
+ROI033_G12	objects=621	clean=595	phenotype_not_assessable=14	aggregate_removed=9	outside_evaluable_area=3	denominator_px=884598
+ROI034_G13	objects=725	clean=546	phenotype_not_assessable=63	aggregate_removed=108	outside_evaluable_area=8	denominator_px=941080
+ROI035_C1	objects=1787	clean=1759	phenotype_not_assessable=15	aggregate_removed=2	outside_evaluable_area=11	denominator_px=598470
+ROI036_K6	objects=564	clean=557	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=1	denominator_px=830129
+ROI037_F10	objects=1273	clean=1239	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=5	denominator_px=801882
+ROI038_E15	objects=559	clean=555	phenotype_not_assessable=0	aggregate_removed=1	outside_evaluable_area=3	denominator_px=887802
+ROI039_F14	objects=1630	clean=1543	phenotype_not_assessable=75	aggregate_removed=12	outside_evaluable_area=0	denominator_px=917231
+ROI040_D7	objects=179	clean=144	phenotype_not_assessable=15	aggregate_removed=12	outside_evaluable_area=8	denominator_px=894467
+ROI041_D5	objects=368	clean=335	phenotype_not_assessable=6	aggregate_removed=19	outside_evaluable_area=8	denominator_px=891975
+ROI042_H6	objects=192	clean=173	phenotype_not_assessable=5	aggregate_removed=8	outside_evaluable_area=6	denominator_px=900925
+ROI043_G5	objects=283	clean=210	phenotype_not_assessable=18	aggregate_removed=42	outside_evaluable_area=13	denominator_px=780926
+ROI044_F4	objects=963	clean=826	phenotype_not_assessable=111	aggregate_removed=20	outside_evaluable_area=6	denominator_px=850059
+ROI045_I2	objects=78	clean=74	phenotype_not_assessable=1	aggregate_removed=1	outside_evaluable_area=2	denominator_px=785659
+ROI046_J3	objects=38	clean=32	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=1	denominator_px=948628
+ROI047_K3	objects=45	clean=40	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=2	denominator_px=731545
+ROI048_K9	objects=302	clean=288	phenotype_not_assessable=10	aggregate_removed=0	outside_evaluable_area=4	denominator_px=851182
+ROI049_K12	objects=783	clean=598	phenotype_not_assessable=165	aggregate_removed=18	outside_evaluable_area=2	denominator_px=855410
+ROI050_G8	objects=294	clean=182	phenotype_not_assessable=67	aggregate_removed=41	outside_evaluable_area=4	denominator_px=887921
+ROI051_I11	objects=253	clean=219	phenotype_not_assessable=16	aggregate_removed=16	outside_evaluable_area=2	denominator_px=871712
+ROI052_D8	objects=248	clean=143	phenotype_not_assessable=29	aggregate_removed=67	outside_evaluable_area=9	denominator_px=873899
+ROI053_B8	objects=547	clean=478	phenotype_not_assessable=37	aggregate_removed=28	outside_evaluable_area=4	denominator_px=850355
+ROI054_E4	objects=504	clean=472	phenotype_not_assessable=18	aggregate_removed=14	outside_evaluable_area=0	denominator_px=995788
+ROI055_B4	objects=626	clean=571	phenotype_not_assessable=22	aggregate_removed=31	outside_evaluable_area=2	denominator_px=926701
+ROI056_B13	objects=1285	clean=1206	phenotype_not_assessable=61	aggregate_removed=17	outside_evaluable_area=1	denominator_px=926807
+ROI057_B14	objects=2105	clean=2061	phenotype_not_assessable=35	aggregate_removed=7	outside_evaluable_area=2	denominator_px=888735
+ROI058_B15	objects=322	clean=252	phenotype_not_assessable=14	aggregate_removed=48	outside_evaluable_area=8	denominator_px=889111
+ROI059_J6	objects=66	clean=61	phenotype_not_assessable=1	aggregate_removed=4	outside_evaluable_area=0	denominator_px=897997
+ROI060_C10	objects=427	clean=390	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=6	denominator_px=854612
+ROI061_I9	objects=556	clean=516	phenotype_not_assessable=30	aggregate_removed=5	outside_evaluable_area=5	denominator_px=809148
+ROI062_E7	objects=219	clean=170	phenotype_not_assessable=21	aggregate_removed=26	outside_evaluable_area=2	denominator_px=912920
+ROI063_B6	objects=104	clean=79	phenotype_not_assessable=4	aggregate_removed=18	outside_evaluable_area=3	denominator_px=863108
+ROI064_C9	objects=394	clean=352	phenotype_not_assessable=14	aggregate_removed=17	outside_evaluable_area=11	denominator_px=837722
+ROI065_D1	objects=1015	clean=971	phenotype_not_assessable=16	aggregate_removed=17	outside_evaluable_area=11	denominator_px=858197
+ROI066_E13	objects=1195	clean=969	phenotype_not_assessable=122	aggregate_removed=96	outside_evaluable_area=8	denominator_px=931704
+ROI067_G14	objects=1018	clean=949	phenotype_not_assessable=40	aggregate_removed=26	outside_evaluable_area=3	denominator_px=945176
+ROI068_H15	objects=212	clean=200	phenotype_not_assessable=6	aggregate_removed=3	outside_evaluable_area=3	denominator_px=837143
+ROI069_H13	objects=730	clean=607	phenotype_not_assessable=51	aggregate_removed=61	outside_evaluable_area=11	denominator_px=900000
+ROI070_J14	objects=703	clean=677	phenotype_not_assessable=10	aggregate_removed=11	outside_evaluable_area=5	denominator_px=863709
+ROI071_J11	objects=292	clean=267	phenotype_not_assessable=10	aggregate_removed=15	outside_evaluable_area=0	denominator_px=924498
+ROI072_H14	objects=1369	clean=1310	phenotype_not_assessable=39	aggregate_removed=13	outside_evaluable_area=7	denominator_px=956708
+ROI073_I14	objects=603	clean=570	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=5	denominator_px=834717
+ROI074_D14	objects=804	clean=734	phenotype_not_assessable=33	aggregate_removed=29	outside_evaluable_area=8	denominator_px=875540
+ROI075_C15	objects=394	clean=371	phenotype_not_assessable=16	aggregate_removed=2	outside_evaluable_area=5	denominator_px=881490
+ROI076_D15	objects=439	clean=422	phenotype_not_assessable=16	aggregate_removed=0	outside_evaluable_area=1	denominator_px=902528
+ROI077_F7	objects=457	clean=378	phenotype_not_assessable=51	aggregate_removed=22	outside_evaluable_area=6	denominator_px=904795
+ROI078_D12	objects=244	clean=187	phenotype_not_assessable=51	aggregate_removed=5	outside_evaluable_area=1	denominator_px=918275
+ROI079_C7	objects=173	clean=133	phenotype_not_assessable=23	aggregate_removed=14	outside_evaluable_area=3	denominator_px=850376
+ROI080_B3	objects=130	clean=115	phenotype_not_assessable=1	aggregate_removed=0	outside_evaluable_area=14	denominator_px=807464
+ROI081_G10	objects=653	clean=571	phenotype_not_assessable=66	aggregate_removed=11	outside_evaluable_area=5	denominator_px=867903
+ROI082_B11	objects=216	clean=171	phenotype_not_assessable=14	aggregate_removed=24	outside_evaluable_area=7	denominator_px=918428
+ROI083_C11	objects=164	clean=124	phenotype_not_assessable=4	aggregate_removed=25	outside_evaluable_area=11	denominator_px=914942
+ROI084_E11	objects=133	clean=120	phenotype_not_assessable=0	aggregate_removed=8	outside_evaluable_area=5	denominator_px=893642
+ROI085_F11	objects=141	clean=127	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=6	denominator_px=820214
+ROI086_H11	objects=131	clean=116	phenotype_not_assessable=7	aggregate_removed=6	outside_evaluable_area=2	denominator_px=811971
+ROI087_H10	objects=627	clean=576	phenotype_not_assessable=34	aggregate_removed=12	outside_evaluable_area=5	denominator_px=885446
+ROI088_I6	objects=9	clean=5	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=1	denominator_px=871798
+ROI089_I3	objects=36	clean=21	phenotype_not_assessable=5	aggregate_removed=10	outside_evaluable_area=0	denominator_px=894936
+ROI090_G2	objects=432	clean=375	phenotype_not_assessable=39	aggregate_removed=6	outside_evaluable_area=12	denominator_px=821707
+ROI091_H5	objects=295	clean=214	phenotype_not_assessable=34	aggregate_removed=43	outside_evaluable_area=4	denominator_px=893962
+ROI092_D9	objects=108	clean=96	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=820667
+ROI093_B5	objects=77	clean=70	phenotype_not_assessable=2	aggregate_removed=2	outside_evaluable_area=3	denominator_px=787994
+ROI094_B7	objects=158	clean=132	phenotype_not_assessable=13	aggregate_removed=12	outside_evaluable_area=1	denominator_px=902995
+ROI095_F8	objects=547	clean=350	phenotype_not_assessable=184	aggregate_removed=10	outside_evaluable_area=3	denominator_px=900123
+ROI096_F5	objects=241	clean=190	phenotype_not_assessable=19	aggregate_removed=24	outside_evaluable_area=8	denominator_px=836602
+ROI097_B9	objects=104	clean=89	phenotype_not_assessable=13	aggregate_removed=2	outside_evaluable_area=0	denominator_px=796430
+ROI098_D6	objects=97	clean=90	phenotype_not_assessable=1	aggregate_removed=2	outside_evaluable_area=4	denominator_px=830519
+ROI099_F3	objects=166	clean=145	phenotype_not_assessable=5	aggregate_removed=3	outside_evaluable_area=13	denominator_px=826440
+ROI100_B2	objects=237	clean=208	phenotype_not_assessable=29	aggregate_removed=0	outside_evaluable_area=0	denominator_px=660276
+ROI101_C3	objects=217	clean=206	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=4	denominator_px=914941
+ROI102_F15	objects=776	clean=756	phenotype_not_assessable=7	aggregate_removed=11	outside_evaluable_area=2	denominator_px=875153
+ROI103_I10	objects=205	clean=180	phenotype_not_assessable=11	aggregate_removed=9	outside_evaluable_area=5	denominator_px=371376
+ROI104_I8	objects=80	clean=74	phenotype_not_assessable=5	aggregate_removed=1	outside_evaluable_area=0	denominator_px=231201
+ROI105_G6	objects=74	clean=60	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=633881
+ROI106_J1	objects=126	clean=119	phenotype_not_assessable=4	aggregate_removed=1	outside_evaluable_area=2	denominator_px=749174
+ROI107_A5	objects=127	clean=106	phenotype_not_assessable=2	aggregate_removed=12	outside_evaluable_area=7	denominator_px=287685
+ROI108_A13	objects=875	clean=750	phenotype_not_assessable=112	aggregate_removed=9	outside_evaluable_area=4	denominator_px=456305
+ROI109_J5	objects=128	clean=82	phenotype_not_assessable=21	aggregate_removed=5	outside_evaluable_area=20	denominator_px=860417
+ROI110_A15	objects=1031	clean=893	phenotype_not_assessable=110	aggregate_removed=12	outside_evaluable_area=16	denominator_px=661802
+ROI111_E5	objects=148	clean=119	phenotype_not_assessable=14	aggregate_removed=15	outside_evaluable_area=0	denominator_px=405306
+ROI112_J10	objects=326	clean=294	phenotype_not_assessable=27	aggregate_removed=5	outside_evaluable_area=0	denominator_px=753592
+ROI113_I15	objects=174	clean=146	phenotype_not_assessable=16	aggregate_removed=6	outside_evaluable_area=6	denominator_px=465260
+ROI114_G11	objects=170	clean=113	phenotype_not_assessable=47	aggregate_removed=10	outside_evaluable_area=0	denominator_px=387607
+ROI115_F9	objects=34	clean=19	phenotype_not_assessable=9	aggregate_removed=6	outside_evaluable_area=0	denominator_px=386023
+ROI116_J13	objects=359	clean=314	phenotype_not_assessable=24	aggregate_removed=12	outside_evaluable_area=9	denominator_px=828288
+ROI117_A1	objects=293	clean=266	phenotype_not_assessable=11	aggregate_removed=15	outside_evaluable_area=1	denominator_px=385092
+ROI118_A2	objects=261	clean=251	phenotype_not_assessable=8	aggregate_removed=0	outside_evaluable_area=2	denominator_px=468451
+ROI119_A12	objects=137	clean=103	phenotype_not_assessable=14	aggregate_removed=13	outside_evaluable_area=7	denominator_px=474704
+ROI120_H8	objects=129	clean=68	phenotype_not_assessable=24	aggregate_removed=24	outside_evaluable_area=13	denominator_px=574102
+ROI121_A8	objects=162	clean=121	phenotype_not_assessable=28	aggregate_removed=10	outside_evaluable_area=3	denominator_px=536455
+ROI122_A7	objects=119	clean=105	phenotype_not_assessable=8	aggregate_removed=3	outside_evaluable_area=3	denominator_px=383234
+ROI123_A6	objects=50	clean=36	phenotype_not_assessable=3	aggregate_removed=5	outside_evaluable_area=6	denominator_px=385338
+ROI124_A10	objects=299	clean=231	phenotype_not_assessable=64	aggregate_removed=3	outside_evaluable_area=1	denominator_px=500162
+ROI125_A11	objects=63	clean=51	phenotype_not_assessable=3	aggregate_removed=4	outside_evaluable_area=5	denominator_px=462820
+ROI126_F6	objects=105	clean=67	phenotype_not_assessable=11	aggregate_removed=17	outside_evaluable_area=10	denominator_px=853611
+ROI127_E9	objects=129	clean=63	phenotype_not_assessable=39	aggregate_removed=24	outside_evaluable_area=3	denominator_px=805920
+ROI128_A14	objects=446	clean=428	phenotype_not_assessable=6	aggregate_removed=10	outside_evaluable_area=2	denominator_px=519730
+ROI129_A4	objects=529	clean=471	phenotype_not_assessable=54	aggregate_removed=3	outside_evaluable_area=1	denominator_px=398846
+ROI130_A3	objects=27	clean=27	phenotype_not_assessable=0	aggregate_removed=0	outside_evaluable_area=0	denominator_px=356463
+ROI131_A9	objects=12	clean=5	phenotype_not_assessable=3	aggregate_removed=0	outside_evaluable_area=4	denominator_px=229853
+ROI132_G15	objects=370	clean=352	phenotype_not_assessable=10	aggregate_removed=3	outside_evaluable_area=5	denominator_px=807099
+ROI133_E6	objects=103	clean=70	phenotype_not_assessable=3	aggregate_removed=21	outside_evaluable_area=9	denominator_px=815394
+ROI134_D4	objects=797	clean=696	phenotype_not_assessable=33	aggregate_removed=39	outside_evaluable_area=29	denominator_px=860440
+ROI135_C2	objects=259	clean=228	phenotype_not_assessable=12	aggregate_removed=12	outside_evaluable_area=7	denominator_px=882317
+ROI136_C6	objects=126	clean=87	phenotype_not_assessable=8	aggregate_removed=24	outside_evaluable_area=7	denominator_px=804466
+ROI137_C8	objects=295	clean=180	phenotype_not_assessable=58	aggregate_removed=38	outside_evaluable_area=19	denominator_px=886316
+
+skipped (no release GeoJSON): none
+ROIs: 136; objects: 79739; {'clean': 72745, 'phenotype_not_assessable': 4149, 'aggregate_removed': 2000, 'outside_evaluable_area': 845}
+denominator identical to the release in every ROI
+included cores (evaluable_for_IMC = yes): 121; objects: 62792; denominator_mm2: 95.00
+  clean=56734 (90.35%); phenotype_not_assessable=3516 (5.60%); aggregate_removed=1880 (2.99%); outside_evaluable_area=662 (1.05%)
+cells table check: 79739 objects in data/cells.csv; unmatched: 0; area differences: 0
+run_finished: 2026-10-13T11:12:54; checks_failed=False
+
