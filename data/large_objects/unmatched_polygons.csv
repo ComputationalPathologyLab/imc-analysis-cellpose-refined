@@ -1,7 +1,0 @@
-roi,polygon_name,review_class,polygon_area,best_iou
-ROI046_J3,cell 30 – 637 px,LO_cell,637,0.0
-ROI046_J3,cell 28 – 2349 px,LO_cell,2349,0.0
-ROI046_J3,cell 34 – 1565 px,LO_cell,1565,0.0
-ROI046_J3,cell 31 – 1729 px,LO_cell,1729,0.0
-ROI046_J3,cell 32 – 1475 px,LO_cell,1475,0.0
-ROI100_B2,cell 1 – 595 px,LO_cell,595,0.0
