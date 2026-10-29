@@ -1,0 +1,142 @@
+MASKS TO GEOJSON (cells classified by cell_status)
+run_started: 2026-10-29T09:09:28
+host: MacBook-Air-di-ICH.local; python: 3.14.6; numpy: 2.4.3; pandas: 3.0.1; scikit-image: 0.26.0
+[1/136] ROI001_E10: 1133/1133 cells written; labels not in cell_flags: 0; {'clean': 989, 'phenotype_not_assessable': 104, 'outside_evaluable_area': 20, 'aggregate_removed': 20}
+[2/136] ROI002_F12: 171/171 cells written; labels not in cell_flags: 0; {'clean': 136, 'phenotype_not_assessable': 19, 'aggregate_removed': 16}
+[3/136] ROI003_C4: 465/465 cells written; labels not in cell_flags: 0; {'clean': 444, 'outside_evaluable_area': 17, 'phenotype_not_assessable': 3, 'aggregate_removed': 1}
+[4/136] ROI004_I7: 707/707 cells written; labels not in cell_flags: 0; {'clean': 660, 'outside_evaluable_area': 21, 'phenotype_not_assessable': 21, 'aggregate_removed': 5}
+[5/136] ROI005_J4: 717/717 cells written; labels not in cell_flags: 0; {'clean': 708, 'phenotype_not_assessable': 7, 'aggregate_removed': 1, 'outside_evaluable_area': 1}
+[6/136] ROI006_B12: 449/449 cells written; labels not in cell_flags: 0; {'clean': 341, 'phenotype_not_assessable': 59, 'aggregate_removed': 49}
+[7/136] ROI007_K15: 1391/1391 cells written; labels not in cell_flags: 0; {'clean': 1378, 'phenotype_not_assessable': 8, 'aggregate_removed': 4, 'outside_evaluable_area': 1}
+[8/136] ROI008_E12: 543/543 cells written; labels not in cell_flags: 0; {'clean': 458, 'aggregate_removed': 53, 'phenotype_not_assessable': 31, 'outside_evaluable_area': 1}
+[9/136] ROI009_G3: 265/265 cells written; labels not in cell_flags: 0; {'clean': 248, 'outside_evaluable_area': 8, 'aggregate_removed': 6, 'phenotype_not_assessable': 3}
+[10/136] ROI010_H9: 979/979 cells written; labels not in cell_flags: 0; {'clean': 917, 'phenotype_not_assessable': 31, 'aggregate_removed': 17, 'outside_evaluable_area': 14}
+[11/136] ROI011_E14: 1145/1145 cells written; labels not in cell_flags: 0; {'clean': 1045, 'phenotype_not_assessable': 79, 'aggregate_removed': 21}
+[12/136] ROI012_H12: 633/633 cells written; labels not in cell_flags: 0; {'clean': 569, 'phenotype_not_assessable': 54, 'aggregate_removed': 10}
+[13/136] ROI013_G9: 1124/1124 cells written; labels not in cell_flags: 0; {'clean': 1087, 'phenotype_not_assessable': 20, 'outside_evaluable_area': 10, 'aggregate_removed': 7}
+[14/136] ROI014_C5: 1459/1459 cells written; labels not in cell_flags: 0; {'clean': 1390, 'phenotype_not_assessable': 44, 'outside_evaluable_area': 21, 'aggregate_removed': 4}
+[15/136] ROI015_D2: 229/229 cells written; labels not in cell_flags: 0; {'clean': 197, 'aggregate_removed': 14, 'phenotype_not_assessable': 10, 'outside_evaluable_area': 8}
+[16/136] ROI016_J12: 1429/1429 cells written; labels not in cell_flags: 0; {'clean': 1387, 'phenotype_not_assessable': 37, 'aggregate_removed': 4, 'outside_evaluable_area': 1}
+[17/136] ROI017_K13: 1080/1080 cells written; labels not in cell_flags: 0; {'clean': 1049, 'phenotype_not_assessable': 17, 'outside_evaluable_area': 12, 'aggregate_removed': 2}
+[18/136] ROI018_B10: 846/846 cells written; labels not in cell_flags: 0; {'clean': 716, 'phenotype_not_assessable': 114, 'aggregate_removed': 13, 'outside_evaluable_area': 3}
+[19/136] ROI019_I5: 235/235 cells written; labels not in cell_flags: 0; {'clean': 190, 'aggregate_removed': 19, 'phenotype_not_assessable': 15, 'outside_evaluable_area': 11}
+[20/136] ROI020_G1: 1431/1431 cells written; labels not in cell_flags: 0; {'clean': 1345, 'aggregate_removed': 46, 'phenotype_not_assessable': 39, 'outside_evaluable_area': 1}
+[21/136] ROI022_J9: 553/553 cells written; labels not in cell_flags: 0; {'clean': 462, 'phenotype_not_assessable': 80, 'outside_evaluable_area': 7, 'aggregate_removed': 4}
+[22/136] ROI023_F13: 2797/2797 cells written; labels not in cell_flags: 0; {'clean': 2659, 'phenotype_not_assessable': 118, 'aggregate_removed': 18, 'outside_evaluable_area': 2}
+[23/136] ROI024_J15: 997/997 cells written; labels not in cell_flags: 0; {'clean': 979, 'phenotype_not_assessable': 9, 'aggregate_removed': 9}
+[24/136] ROI025_I4: 459/459 cells written; labels not in cell_flags: 0; {'clean': 436, 'phenotype_not_assessable': 11, 'outside_evaluable_area': 8, 'aggregate_removed': 4}
+[25/136] ROI026_C12: 625/625 cells written; labels not in cell_flags: 0; {'clean': 501, 'phenotype_not_assessable': 76, 'aggregate_removed': 48}
+[26/136] ROI027_C13: 1071/1071 cells written; labels not in cell_flags: 0; {'clean': 1014, 'phenotype_not_assessable': 26, 'aggregate_removed': 24, 'outside_evaluable_area': 7}
+[27/136] ROI028_C14: 3316/3316 cells written; labels not in cell_flags: 0; {'clean': 3234, 'phenotype_not_assessable': 69, 'outside_evaluable_area': 8, 'aggregate_removed': 5}
+[28/136] ROI029_J2: 1732/1732 cells written; labels not in cell_flags: 0; {'clean': 1627, 'phenotype_not_assessable': 91, 'aggregate_removed': 12, 'outside_evaluable_area': 2}
+[29/136] ROI030_J7: 901/901 cells written; labels not in cell_flags: 0; {'clean': 873, 'phenotype_not_assessable': 21, 'aggregate_removed': 4, 'outside_evaluable_area': 3}
+[30/136] ROI031_K10: 7991/7991 cells written; labels not in cell_flags: 0; {'clean': 7702, 'phenotype_not_assessable': 183, 'outside_evaluable_area': 102, 'aggregate_removed': 4}
+[31/136] ROI032_I13: 615/615 cells written; labels not in cell_flags: 0; {'clean': 551, 'phenotype_not_assessable': 34, 'aggregate_removed': 17, 'outside_evaluable_area': 13}
+[32/136] ROI033_G12: 621/621 cells written; labels not in cell_flags: 0; {'clean': 595, 'phenotype_not_assessable': 14, 'aggregate_removed': 9, 'outside_evaluable_area': 3}
+[33/136] ROI034_G13: 725/725 cells written; labels not in cell_flags: 0; {'clean': 546, 'aggregate_removed': 108, 'phenotype_not_assessable': 63, 'outside_evaluable_area': 8}
+[34/136] ROI035_C1: 1787/1787 cells written; labels not in cell_flags: 0; {'clean': 1759, 'phenotype_not_assessable': 15, 'outside_evaluable_area': 11, 'aggregate_removed': 2}
+[35/136] ROI036_K6: 564/564 cells written; labels not in cell_flags: 0; {'clean': 557, 'phenotype_not_assessable': 5, 'aggregate_removed': 1, 'outside_evaluable_area': 1}
+[36/136] ROI037_F10: 1273/1273 cells written; labels not in cell_flags: 0; {'clean': 1239, 'phenotype_not_assessable': 29, 'outside_evaluable_area': 5}
+[37/136] ROI038_E15: 559/559 cells written; labels not in cell_flags: 0; {'clean': 555, 'outside_evaluable_area': 3, 'aggregate_removed': 1}
+[38/136] ROI039_F14: 1630/1630 cells written; labels not in cell_flags: 0; {'clean': 1543, 'phenotype_not_assessable': 75, 'aggregate_removed': 12}
+[39/136] ROI040_D7: 179/179 cells written; labels not in cell_flags: 0; {'clean': 144, 'phenotype_not_assessable': 15, 'aggregate_removed': 12, 'outside_evaluable_area': 8}
+[40/136] ROI041_D5: 368/368 cells written; labels not in cell_flags: 0; {'clean': 335, 'aggregate_removed': 19, 'outside_evaluable_area': 8, 'phenotype_not_assessable': 6}
+[41/136] ROI042_H6: 192/192 cells written; labels not in cell_flags: 0; {'clean': 173, 'aggregate_removed': 8, 'outside_evaluable_area': 6, 'phenotype_not_assessable': 5}
+[42/136] ROI043_G5: 283/283 cells written; labels not in cell_flags: 0; {'clean': 210, 'aggregate_removed': 42, 'phenotype_not_assessable': 18, 'outside_evaluable_area': 13}
+[43/136] ROI044_F4: 963/963 cells written; labels not in cell_flags: 0; {'clean': 826, 'phenotype_not_assessable': 111, 'aggregate_removed': 20, 'outside_evaluable_area': 6}
+[44/136] ROI045_I2: 78/78 cells written; labels not in cell_flags: 0; {'clean': 74, 'outside_evaluable_area': 2, 'phenotype_not_assessable': 1, 'aggregate_removed': 1}
+[45/136] ROI046_J3: 38/38 cells written; labels not in cell_flags: 0; {'clean': 32, 'phenotype_not_assessable': 4, 'aggregate_removed': 1, 'outside_evaluable_area': 1}
+[46/136] ROI047_K3: 45/45 cells written; labels not in cell_flags: 0; {'clean': 40, 'phenotype_not_assessable': 3, 'outside_evaluable_area': 2}
+[47/136] ROI048_K9: 302/302 cells written; labels not in cell_flags: 0; {'clean': 288, 'phenotype_not_assessable': 10, 'outside_evaluable_area': 4}
+[48/136] ROI049_K12: 783/783 cells written; labels not in cell_flags: 0; {'clean': 598, 'phenotype_not_assessable': 165, 'aggregate_removed': 18, 'outside_evaluable_area': 2}
+[49/136] ROI050_G8: 294/294 cells written; labels not in cell_flags: 0; {'clean': 182, 'phenotype_not_assessable': 67, 'aggregate_removed': 41, 'outside_evaluable_area': 4}
+[50/136] ROI051_I11: 253/253 cells written; labels not in cell_flags: 0; {'clean': 219, 'aggregate_removed': 16, 'phenotype_not_assessable': 16, 'outside_evaluable_area': 2}
+[51/136] ROI052_D8: 248/248 cells written; labels not in cell_flags: 0; {'clean': 143, 'aggregate_removed': 67, 'phenotype_not_assessable': 29, 'outside_evaluable_area': 9}
+[52/136] ROI053_B8: 547/547 cells written; labels not in cell_flags: 0; {'clean': 478, 'phenotype_not_assessable': 37, 'aggregate_removed': 28, 'outside_evaluable_area': 4}
+[53/136] ROI054_E4: 504/504 cells written; labels not in cell_flags: 0; {'clean': 472, 'phenotype_not_assessable': 18, 'aggregate_removed': 14}
+[54/136] ROI055_B4: 626/626 cells written; labels not in cell_flags: 0; {'clean': 571, 'aggregate_removed': 31, 'phenotype_not_assessable': 22, 'outside_evaluable_area': 2}
+[55/136] ROI056_B13: 1285/1285 cells written; labels not in cell_flags: 0; {'clean': 1206, 'phenotype_not_assessable': 61, 'aggregate_removed': 17, 'outside_evaluable_area': 1}
+[56/136] ROI057_B14: 2105/2105 cells written; labels not in cell_flags: 0; {'clean': 2061, 'phenotype_not_assessable': 35, 'aggregate_removed': 7, 'outside_evaluable_area': 2}
+[57/136] ROI058_B15: 322/322 cells written; labels not in cell_flags: 0; {'clean': 252, 'aggregate_removed': 48, 'phenotype_not_assessable': 14, 'outside_evaluable_area': 8}
+[58/136] ROI059_J6: 66/66 cells written; labels not in cell_flags: 0; {'clean': 61, 'aggregate_removed': 4, 'phenotype_not_assessable': 1}
+[59/136] ROI060_C10: 427/427 cells written; labels not in cell_flags: 0; {'clean': 390, 'aggregate_removed': 17, 'phenotype_not_assessable': 14, 'outside_evaluable_area': 6}
+[60/136] ROI061_I9: 556/556 cells written; labels not in cell_flags: 0; {'clean': 516, 'phenotype_not_assessable': 30, 'outside_evaluable_area': 5, 'aggregate_removed': 5}
+[61/136] ROI062_E7: 219/219 cells written; labels not in cell_flags: 0; {'clean': 170, 'aggregate_removed': 26, 'phenotype_not_assessable': 21, 'outside_evaluable_area': 2}
+[62/136] ROI063_B6: 104/104 cells written; labels not in cell_flags: 0; {'clean': 79, 'aggregate_removed': 18, 'phenotype_not_assessable': 4, 'outside_evaluable_area': 3}
+[63/136] ROI064_C9: 394/394 cells written; labels not in cell_flags: 0; {'clean': 352, 'aggregate_removed': 17, 'phenotype_not_assessable': 14, 'outside_evaluable_area': 11}
+[64/136] ROI065_D1: 1015/1015 cells written; labels not in cell_flags: 0; {'clean': 971, 'aggregate_removed': 17, 'phenotype_not_assessable': 16, 'outside_evaluable_area': 11}
+[65/136] ROI066_E13: 1195/1195 cells written; labels not in cell_flags: 0; {'clean': 969, 'phenotype_not_assessable': 122, 'aggregate_removed': 96, 'outside_evaluable_area': 8}
+[66/136] ROI067_G14: 1018/1018 cells written; labels not in cell_flags: 0; {'clean': 949, 'phenotype_not_assessable': 40, 'aggregate_removed': 26, 'outside_evaluable_area': 3}
+[67/136] ROI068_H15: 212/212 cells written; labels not in cell_flags: 0; {'clean': 200, 'phenotype_not_assessable': 6, 'outside_evaluable_area': 3, 'aggregate_removed': 3}
+[68/136] ROI069_H13: 730/730 cells written; labels not in cell_flags: 0; {'clean': 607, 'aggregate_removed': 61, 'phenotype_not_assessable': 51, 'outside_evaluable_area': 11}
+[69/136] ROI070_J14: 703/703 cells written; labels not in cell_flags: 0; {'clean': 677, 'aggregate_removed': 11, 'phenotype_not_assessable': 10, 'outside_evaluable_area': 5}
+[70/136] ROI071_J11: 292/292 cells written; labels not in cell_flags: 0; {'clean': 267, 'aggregate_removed': 15, 'phenotype_not_assessable': 10}
+[71/136] ROI072_H14: 1369/1369 cells written; labels not in cell_flags: 0; {'clean': 1310, 'phenotype_not_assessable': 39, 'aggregate_removed': 13, 'outside_evaluable_area': 7}
+[72/136] ROI073_I14: 603/603 cells written; labels not in cell_flags: 0; {'clean': 570, 'aggregate_removed': 17, 'phenotype_not_assessable': 11, 'outside_evaluable_area': 5}
+[73/136] ROI074_D14: 804/804 cells written; labels not in cell_flags: 0; {'clean': 734, 'phenotype_not_assessable': 33, 'aggregate_removed': 29, 'outside_evaluable_area': 8}
+[74/136] ROI075_C15: 394/394 cells written; labels not in cell_flags: 0; {'clean': 371, 'phenotype_not_assessable': 16, 'outside_evaluable_area': 5, 'aggregate_removed': 2}
+[75/136] ROI076_D15: 439/439 cells written; labels not in cell_flags: 0; {'clean': 422, 'phenotype_not_assessable': 16, 'outside_evaluable_area': 1}
+[76/136] ROI077_F7: 457/457 cells written; labels not in cell_flags: 0; {'clean': 378, 'phenotype_not_assessable': 51, 'aggregate_removed': 22, 'outside_evaluable_area': 6}
+[77/136] ROI078_D12: 244/244 cells written; labels not in cell_flags: 0; {'clean': 187, 'phenotype_not_assessable': 51, 'aggregate_removed': 5, 'outside_evaluable_area': 1}
+[78/136] ROI079_C7: 173/173 cells written; labels not in cell_flags: 0; {'clean': 133, 'phenotype_not_assessable': 23, 'aggregate_removed': 14, 'outside_evaluable_area': 3}
+[79/136] ROI080_B3: 130/130 cells written; labels not in cell_flags: 0; {'clean': 115, 'outside_evaluable_area': 14, 'phenotype_not_assessable': 1}
+[80/136] ROI081_G10: 653/653 cells written; labels not in cell_flags: 0; {'clean': 571, 'phenotype_not_assessable': 66, 'aggregate_removed': 11, 'outside_evaluable_area': 5}
+[81/136] ROI082_B11: 216/216 cells written; labels not in cell_flags: 0; {'clean': 171, 'aggregate_removed': 24, 'phenotype_not_assessable': 14, 'outside_evaluable_area': 7}
+[82/136] ROI083_C11: 164/164 cells written; labels not in cell_flags: 0; {'clean': 124, 'aggregate_removed': 25, 'outside_evaluable_area': 11, 'phenotype_not_assessable': 4}
+[83/136] ROI084_E11: 133/133 cells written; labels not in cell_flags: 0; {'clean': 120, 'aggregate_removed': 8, 'outside_evaluable_area': 5}
+[84/136] ROI085_F11: 141/141 cells written; labels not in cell_flags: 0; {'clean': 127, 'outside_evaluable_area': 6, 'phenotype_not_assessable': 5, 'aggregate_removed': 3}
+[85/136] ROI086_H11: 131/131 cells written; labels not in cell_flags: 0; {'clean': 116, 'phenotype_not_assessable': 7, 'aggregate_removed': 6, 'outside_evaluable_area': 2}
+[86/136] ROI087_H10: 627/627 cells written; labels not in cell_flags: 0; {'clean': 576, 'phenotype_not_assessable': 34, 'aggregate_removed': 12, 'outside_evaluable_area': 5}
+[87/136] ROI088_I6: 9/9 cells written; labels not in cell_flags: 0; {'clean': 5, 'aggregate_removed': 2, 'outside_evaluable_area': 1, 'phenotype_not_assessable': 1}
+[88/136] ROI089_I3: 36/36 cells written; labels not in cell_flags: 0; {'clean': 21, 'aggregate_removed': 10, 'phenotype_not_assessable': 5}
+[89/136] ROI090_G2: 432/432 cells written; labels not in cell_flags: 0; {'clean': 375, 'phenotype_not_assessable': 39, 'outside_evaluable_area': 12, 'aggregate_removed': 6}
+[90/136] ROI091_H5: 295/295 cells written; labels not in cell_flags: 0; {'clean': 214, 'aggregate_removed': 43, 'phenotype_not_assessable': 34, 'outside_evaluable_area': 4}
+[91/136] ROI092_D9: 108/108 cells written; labels not in cell_flags: 0; {'clean': 96, 'outside_evaluable_area': 5, 'aggregate_removed': 4, 'phenotype_not_assessable': 3}
+[92/136] ROI093_B5: 77/77 cells written; labels not in cell_flags: 0; {'clean': 70, 'outside_evaluable_area': 3, 'aggregate_removed': 2, 'phenotype_not_assessable': 2}
+[93/136] ROI094_B7: 158/158 cells written; labels not in cell_flags: 0; {'clean': 132, 'phenotype_not_assessable': 13, 'aggregate_removed': 12, 'outside_evaluable_area': 1}
+[94/136] ROI095_F8: 547/547 cells written; labels not in cell_flags: 0; {'clean': 350, 'phenotype_not_assessable': 184, 'aggregate_removed': 10, 'outside_evaluable_area': 3}
+[95/136] ROI096_F5: 241/241 cells written; labels not in cell_flags: 0; {'clean': 190, 'aggregate_removed': 24, 'phenotype_not_assessable': 19, 'outside_evaluable_area': 8}
+[96/136] ROI097_B9: 104/104 cells written; labels not in cell_flags: 0; {'clean': 89, 'phenotype_not_assessable': 13, 'aggregate_removed': 2}
+[97/136] ROI098_D6: 97/97 cells written; labels not in cell_flags: 0; {'clean': 90, 'outside_evaluable_area': 4, 'aggregate_removed': 2, 'phenotype_not_assessable': 1}
+[98/136] ROI099_F3: 166/166 cells written; labels not in cell_flags: 0; {'clean': 145, 'outside_evaluable_area': 13, 'phenotype_not_assessable': 5, 'aggregate_removed': 3}
+[99/136] ROI100_B2: 237/237 cells written; labels not in cell_flags: 0; {'clean': 208, 'phenotype_not_assessable': 29}
+[100/136] ROI101_C3: 217/217 cells written; labels not in cell_flags: 0; {'clean': 206, 'outside_evaluable_area': 4, 'aggregate_removed': 4, 'phenotype_not_assessable': 3}
+[101/136] ROI102_F15: 776/776 cells written; labels not in cell_flags: 0; {'clean': 756, 'aggregate_removed': 11, 'phenotype_not_assessable': 7, 'outside_evaluable_area': 2}
+[102/136] ROI103_I10: 205/205 cells written; labels not in cell_flags: 0; {'clean': 180, 'phenotype_not_assessable': 11, 'aggregate_removed': 9, 'outside_evaluable_area': 5}
+[103/136] ROI104_I8: 80/80 cells written; labels not in cell_flags: 0; {'clean': 74, 'phenotype_not_assessable': 5, 'aggregate_removed': 1}
+[104/136] ROI105_G6: 74/74 cells written; labels not in cell_flags: 0; {'clean': 60, 'phenotype_not_assessable': 8, 'outside_evaluable_area': 3, 'aggregate_removed': 3}
+[105/136] ROI106_J1: 126/126 cells written; labels not in cell_flags: 0; {'clean': 119, 'phenotype_not_assessable': 4, 'outside_evaluable_area': 2, 'aggregate_removed': 1}
+[106/136] ROI107_A5: 127/127 cells written; labels not in cell_flags: 0; {'clean': 106, 'aggregate_removed': 12, 'outside_evaluable_area': 7, 'phenotype_not_assessable': 2}
+[107/136] ROI108_A13: 875/875 cells written; labels not in cell_flags: 0; {'clean': 750, 'phenotype_not_assessable': 112, 'aggregate_removed': 9, 'outside_evaluable_area': 4}
+[108/136] ROI109_J5: 128/128 cells written; labels not in cell_flags: 0; {'clean': 82, 'phenotype_not_assessable': 21, 'outside_evaluable_area': 20, 'aggregate_removed': 5}
+[109/136] ROI110_A15: 1031/1031 cells written; labels not in cell_flags: 0; {'clean': 893, 'phenotype_not_assessable': 110, 'outside_evaluable_area': 16, 'aggregate_removed': 12}
+[110/136] ROI111_E5: 148/148 cells written; labels not in cell_flags: 0; {'clean': 119, 'aggregate_removed': 15, 'phenotype_not_assessable': 14}
+[111/136] ROI112_J10: 326/326 cells written; labels not in cell_flags: 0; {'clean': 294, 'phenotype_not_assessable': 27, 'aggregate_removed': 5}
+[112/136] ROI113_I15: 174/174 cells written; labels not in cell_flags: 0; {'clean': 146, 'phenotype_not_assessable': 16, 'aggregate_removed': 6, 'outside_evaluable_area': 6}
+[113/136] ROI114_G11: 170/170 cells written; labels not in cell_flags: 0; {'clean': 113, 'phenotype_not_assessable': 47, 'aggregate_removed': 10}
+[114/136] ROI115_F9: 34/34 cells written; labels not in cell_flags: 0; {'clean': 19, 'phenotype_not_assessable': 9, 'aggregate_removed': 6}
+[115/136] ROI116_J13: 359/359 cells written; labels not in cell_flags: 0; {'clean': 314, 'phenotype_not_assessable': 24, 'aggregate_removed': 12, 'outside_evaluable_area': 9}
+[116/136] ROI117_A1: 293/293 cells written; labels not in cell_flags: 0; {'clean': 266, 'aggregate_removed': 15, 'phenotype_not_assessable': 11, 'outside_evaluable_area': 1}
+[117/136] ROI118_A2: 261/261 cells written; labels not in cell_flags: 0; {'clean': 251, 'phenotype_not_assessable': 8, 'outside_evaluable_area': 2}
+[118/136] ROI119_A12: 137/137 cells written; labels not in cell_flags: 0; {'clean': 103, 'phenotype_not_assessable': 14, 'aggregate_removed': 13, 'outside_evaluable_area': 7}
+[119/136] ROI120_H8: 129/129 cells written; labels not in cell_flags: 0; {'clean': 68, 'aggregate_removed': 24, 'phenotype_not_assessable': 24, 'outside_evaluable_area': 13}
+[120/136] ROI121_A8: 162/162 cells written; labels not in cell_flags: 0; {'clean': 121, 'phenotype_not_assessable': 28, 'aggregate_removed': 10, 'outside_evaluable_area': 3}
+[121/136] ROI122_A7: 119/119 cells written; labels not in cell_flags: 0; {'clean': 105, 'phenotype_not_assessable': 8, 'aggregate_removed': 3, 'outside_evaluable_area': 3}
+[122/136] ROI123_A6: 50/50 cells written; labels not in cell_flags: 0; {'clean': 36, 'outside_evaluable_area': 6, 'aggregate_removed': 5, 'phenotype_not_assessable': 3}
+[123/136] ROI124_A10: 299/299 cells written; labels not in cell_flags: 0; {'clean': 231, 'phenotype_not_assessable': 64, 'aggregate_removed': 3, 'outside_evaluable_area': 1}
+[124/136] ROI125_A11: 63/63 cells written; labels not in cell_flags: 0; {'clean': 51, 'outside_evaluable_area': 5, 'aggregate_removed': 4, 'phenotype_not_assessable': 3}
+[125/136] ROI126_F6: 105/105 cells written; labels not in cell_flags: 0; {'clean': 67, 'aggregate_removed': 17, 'phenotype_not_assessable': 11, 'outside_evaluable_area': 10}
+[126/136] ROI127_E9: 129/129 cells written; labels not in cell_flags: 0; {'clean': 63, 'phenotype_not_assessable': 39, 'aggregate_removed': 24, 'outside_evaluable_area': 3}
+[127/136] ROI128_A14: 446/446 cells written; labels not in cell_flags: 0; {'clean': 428, 'aggregate_removed': 10, 'phenotype_not_assessable': 6, 'outside_evaluable_area': 2}
+[128/136] ROI129_A4: 529/529 cells written; labels not in cell_flags: 0; {'clean': 471, 'phenotype_not_assessable': 54, 'aggregate_removed': 3, 'outside_evaluable_area': 1}
+[129/136] ROI130_A3: 27/27 cells written; labels not in cell_flags: 0; {'clean': 27}
+[130/136] ROI131_A9: 12/12 cells written; labels not in cell_flags: 0; {'clean': 5, 'outside_evaluable_area': 4, 'phenotype_not_assessable': 3}
+[131/136] ROI132_G15: 370/370 cells written; labels not in cell_flags: 0; {'clean': 352, 'phenotype_not_assessable': 10, 'outside_evaluable_area': 5, 'aggregate_removed': 3}
+[132/136] ROI133_E6: 103/103 cells written; labels not in cell_flags: 0; {'clean': 70, 'aggregate_removed': 21, 'outside_evaluable_area': 9, 'phenotype_not_assessable': 3}
+[133/136] ROI134_D4: 797/797 cells written; labels not in cell_flags: 0; {'clean': 696, 'aggregate_removed': 39, 'phenotype_not_assessable': 33, 'outside_evaluable_area': 29}
+[134/136] ROI135_C2: 259/259 cells written; labels not in cell_flags: 0; {'clean': 228, 'phenotype_not_assessable': 12, 'aggregate_removed': 12, 'outside_evaluable_area': 7}
+[135/136] ROI136_C6: 126/126 cells written; labels not in cell_flags: 0; {'clean': 87, 'aggregate_removed': 24, 'phenotype_not_assessable': 8, 'outside_evaluable_area': 7}
+[136/136] ROI137_C8: 295/295 cells written; labels not in cell_flags: 0; {'clean': 180, 'phenotype_not_assessable': 58, 'aggregate_removed': 38, 'outside_evaluable_area': 19}
+rois: 136; failed or incomplete: 0 
+run_finished: 2026-10-29T09:09:37
+
